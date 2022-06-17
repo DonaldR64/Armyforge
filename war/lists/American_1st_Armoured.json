@@ -8,14 +8,14 @@
          {"id": 501, "name": "M1A1 Abrams Armoured Combat Team","pts":0, "upgrades": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]},
          {"id": 502, "name": "M1 Abrams Armoured Combat Team", "pts":0, "upgrades": [20,21,22,23,24,25,26,27,28,29,11,12,13,14,15,16,17,18]},
          {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": [30,31,32,33,34,35,36,37,38,13,14,15,16]},
-         {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": []},
-         {"id": 505, "name": "M133 Mech Combat Team", "pts":0, "upgrades": []},
+         {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": [40,41,17,18,5,6,7,8,9,10,24,25,26,27,28,29]},
+         {"id": 505, "name": "M113 Mech Combat Team", "pts":0, "upgrades": [50,51,52,53,54,5,6,7,8,9,10,24,25,26,27,28,29,32,33,34,11,12,35,36,13,14,15,16]},
          {"id": 506, "name": "UH-1 Huey Infantry Combat Team", "pts":0, "upgrades": []},
          {"id": 507, "name": "M3 Bradley Armoured Combat Troop", "pts":0, "upgrades": []},
          {"id": 508, "name": "M113 Armoured Cavalry Troop", "pts":0, "upgrades": []},
          {"id": 509, "name": "HMMWV Cavalry Troop", "pts":0, "upgrades": []}
       ]},
-      
+
       {"name":"Support","formations":[
          {"id":510,"name":"M109 Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[108,109,110,111,112]},
          {"id":511,"name":"M163 VADS AA Platoon","pts":3,"units":"2 x M163 VADS","upgrades":[104]},
@@ -48,8 +48,6 @@
       {"id": 14, "name": "M901 ITV Antitank Platoon: 2 x M901 ITV TOW-2", "pts": 4},
       {"id": 15, "name": "M106 Heavy Mortar Platoon: 3 x M106", "pts": 3},
       {"id": 16, "name": "M106 Heavy Mortar Platoon: 6 x M106", "pts": 6},
-      {"id": 17, "name": "M2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2 Bradley", "pts": 15},
-      {"id": 18, "name": "M2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2 Bradley", "pts": 10},
 
       {"id": 20, "name": "HQ: 1 x M1 Abrams", "pts": 8},
       {"id": 21, "name": "HQ: 2 x M1 Abrams", "pts": 16},
@@ -70,11 +68,19 @@
 
       {"id": 35, "name": "M113 Scout Section: 1 x M113 Scouts/1 x M901 ITV TOW", "pts": 2},
       {"id": 36, "name": "M113 Scout Section: 1 x M113 Scouts/1 x M901 ITV TOW-2", "pts": 3},      
-      {"id": 37, "name": "M113 Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M113", "pts": 6},
-      {"id": 38, "name": "M113 Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M113", "pts": 4},
 
+      {"id": 40, "name": "M2 Bradley Mechanized Team HQ: 1 x M16 Rifle Team / 1 x M2 Bradley", "pts": 2},
+      {"id": 41, "name": "M2A2 Bradley Mechanized Team HQ: 1 x M16 Rifle Team / 1 x M2A2 Bradley", "pts": 3},
+      {"id": 42, "name": "M2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2 Bradley", "pts": 10},
+      {"id": 43, "name": "M2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2 Bradley", "pts": 15},
+      {"id": 44, "name": "M2A2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2 Bradley", "pts": 11},
+      {"id": 45, "name": "M2A2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2 Bradley", "pts": 16},
 
-
+      {"id": 50, "name": "M113 Mech Combat Team HQ: 1 x M16 Rifle Team / 1 x M113", "pts": 1},
+      {"id": 51, "name": "M113 Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M113", "pts": 4},
+      {"id": 52, "name": "M113 Mechanized Platoon: 3 SAW Teams, 3 Dragon Teams, 3 M113", "pts": 5},
+      {"id": 53, "name": "M113 Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M113", "pts": 6},      
+      {"id": 54, "name": "M113 Mechanized Platoon: 4 SAW Teams, 4 Dragon Teams, 4 M113", "pts": 7},
 
       {"id": 100, "name": "add 2 x AH-64 Apache", "pts": 12},
       {"id": 101, "name": "add 2 x AH-1 Cobra (TOW-2)", "pts": 9},
@@ -108,24 +114,39 @@
    "upgradeConstraints": [      
       {"max": 1, "min": 1, "from": [1,2,3,4], "appliesTo": [501]},
       {"max": 3, "min": 2, "from": [5,6,7,8,9,10], "appliesTo": [501]}, 
-      {"max": 2, "from": [11,12], "appliesTo": [501]}, 
+      {"max": 2, "from": [11,12,35,36], "appliesTo": [501]}, 
       {"max": 1, "from": [13,14], "appliesTo": [501]}, 
       {"max": 1, "from": [15,16], "appliesTo": [501]}, 
-      {"max": 1, "from": [17,18], "appliesTo": [501]},
+      {"max": 1, "from": [42,43,44,45], "appliesTo": [501]},
 
       {"max": 1, "min": 1, "from": [20,21,22,23], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [24,25,26,27,28,29], "appliesTo": [502]}, 
-      {"max": 2, "from": [11,12], "appliesTo": [502]}, 
+      {"max": 2, "from": [11,12,35,36], "appliesTo": [502]}, 
       {"max": 1, "from": [13,14], "appliesTo": [502]}, 
       {"max": 1, "from": [15,16], "appliesTo": [502]}, 
-      {"max": 1, "from": [17,18], "appliesTo": [502]},
+      {"max": 1, "from": [42,43,44,45], "appliesTo": [502]},
 
       {"max": 1, "min": 1, "from": [20,21,22,23], "appliesTo": [503]},
       {"max": 3, "min": 2, "from": [24,25,26,27,28,29], "appliesTo": [503]}, 
       {"max": 2, "from": [35,36], "appliesTo": [503]}, 
       {"max": 1, "from": [13,14], "appliesTo": [503]}, 
       {"max": 1, "from": [15,16], "appliesTo": [503]}, 
-      {"max": 1, "from": [37,38], "appliesTo": [503]},
+      {"max": 1, "from": [51,52,53,54], "appliesTo": [503]},
+
+      {"max": 1, "min": 1, "from": [40,41], "appliesTo": [504]},
+      {"max": 3, "min": 2, "from": [42,43,44,45], "appliesTo": [504]}, 
+      {"max": 1, "from": [5,6,7,8,9,10,24,25,26,27,28,29], "appliesTo": [504]}, 
+      {"max": 2, "from": [11,12], "appliesTo": [504]}, 
+      {"max": 1, "from": [15,16], "appliesTo": [504]}, 
+
+
+      {"max": 1, "min": 1, "from": [50], "appliesTo": [505]},
+      {"max": 3, "min": 2, "from": [51,52,53,54], "appliesTo": [505]}, 
+      {"max": 1, "from": [5,6,7,8,9,10,24,25,26,27,28,29,32,33,34], "appliesTo": [505]}, 
+      {"max": 2, "from": [11,12,35,36], "appliesTo": [504]}, 
+      {"max": 4, "from": [13,14], "appliesTo": [504]},
+      {"max": 1, "from": [15,16], "appliesTo": [504]}, 
+ 
 
 
 
