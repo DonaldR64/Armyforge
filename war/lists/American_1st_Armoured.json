@@ -6,8 +6,8 @@
    "sections": [
       {"name": "Core", "formations": [
          {"id": 501, "name": "M1A1 Abrams Armoured Combat Team","pts":0, "upgrades": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]},
-         {"id": 502, "name": "M1 Abrams Armoured Combat Team", "pts":0, "upgrades": []},
-         {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": []},
+         {"id": 502, "name": "M1 Abrams Armoured Combat Team", "pts":0, "upgrades": [20,21,22,23,24,25,26,27,28,29,11,12,13,14,15,16,17,18]},
+         {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": [30,31,32,33,34,35,36,37,38,13,14,15,16]},
          {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": []},
          {"id": 505, "name": "M133 Mech Combat Team", "pts":0, "upgrades": []},
          {"id": 506, "name": "UH-1 Huey Infantry Combat Team", "pts":0, "upgrades": []},
@@ -15,6 +15,7 @@
          {"id": 508, "name": "M113 Armoured Cavalry Troop", "pts":0, "upgrades": []},
          {"id": 509, "name": "HMMWV Cavalry Troop", "pts":0, "upgrades": []}
       ]},
+      
       {"name":"Support","formations":[
          {"id":510,"name":"M109 Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[108,109,110,111,112]},
          {"id":511,"name":"M163 VADS AA Platoon","pts":3,"units":"2 x M163 VADS","upgrades":[104]},
@@ -111,6 +112,23 @@
       {"max": 1, "from": [13,14], "appliesTo": [501]}, 
       {"max": 1, "from": [15,16], "appliesTo": [501]}, 
       {"max": 1, "from": [17,18], "appliesTo": [501]},
+
+      {"max": 1, "min": 1, "from": [20,21,22,23], "appliesTo": [502]},
+      {"max": 3, "min": 2, "from": [24,25,26,27,28,29], "appliesTo": [502]}, 
+      {"max": 2, "from": [11,12], "appliesTo": [502]}, 
+      {"max": 1, "from": [13,14], "appliesTo": [502]}, 
+      {"max": 1, "from": [15,16], "appliesTo": [502]}, 
+      {"max": 1, "from": [17,18], "appliesTo": [502]},
+
+      {"max": 1, "min": 1, "from": [20,21,22,23], "appliesTo": [503]},
+      {"max": 3, "min": 2, "from": [24,25,26,27,28,29], "appliesTo": [503]}, 
+      {"max": 2, "from": [35,36], "appliesTo": [503]}, 
+      {"max": 1, "from": [13,14], "appliesTo": [503]}, 
+      {"max": 1, "from": [15,16], "appliesTo": [503]}, 
+      {"max": 1, "from": [37,38], "appliesTo": [503]},
+
+
+
 
 
       {"max": 1, "from": [100], "appliesTo": [517]},
