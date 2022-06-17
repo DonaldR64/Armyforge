@@ -1,8 +1,8 @@
 {
    "id": "American 1st Armoured Division",
-   "version": "TY v2",
+   "version": "Team Yankee Version 2",
    "by": "Octagon",
-   "notes":["Blank"],
+   "notes":["American Book"],
    "sections": [
       {"name": "Core", "formations": [
          {"id": 501, "name": "M1A1 Abrams Armoured Combat Team","pts":0, "upgrades": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]},
@@ -108,7 +108,7 @@
       {"max": 1, "from": [515]},
       {"max": 2, "from": [517,518]},
       {"max": 1, "from": [519]},
-      {"max": 1, "perArmy": true, "from": [514], "forEach": [510,513,46,47]}
+      {"max": 1, "perArmy": true, "from": [514], "forEach": [510,513,15,16]}
       ],
 
    "upgradeConstraints": [      
