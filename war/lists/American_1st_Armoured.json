@@ -7,8 +7,8 @@
       {"name": "Core", "formations": [
          {"id": 501, "name": "M1A1 Abrams Armoured Combat Team","pts":0, "upgrades": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]},
          {"id": 502, "name": "M1 Abrams Armoured Combat Team", "pts":0, "upgrades": [20,21,22,23,24,25,26,27,28,29,11,12,13,14,15,16]},
-         {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": [30,31,32,33,34,35,36,37,38,13,14,15,16]},
-         {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": [40,4142,43,44,45,5,6,7,8,9,10,24,25,26,27,28,29]},
+         {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": [30,31,32,33,34,35,36,13,14,15,16]},
+         {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": [40,41,42,43,44,45,5,6,7,8,9,10,24,25,26,27,28,29]},
          {"id": 505, "name": "M113 Mech Combat Team", "pts":0, "upgrades": [50,51,52,53,54,5,6,7,8,9,10,24,25,26,27,28,29,32,33,34,11,12,35,36,13,14,15,16]},
          {"id": 506, "name": "UH-1 Huey Infantry Combat Team", "pts":0, "upgrades": []},
          {"id": 507, "name": "M3 Bradley Armoured Combat Troop", "pts":0, "upgrades": []},
