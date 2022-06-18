@@ -6,7 +6,7 @@
 			{"id": 502, "name": "1st Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
 			{"id": 503, "name": "2nd Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
 			{"id": 504, "name": "3rd Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
-			{"id": 505, "name": "Additional Units","pts": 0,"upgrades": [30,31,32,33,40,41,42,43,50,51,52,53]},
+			{"id": 505, "name": "Additional Units","pts": 0,"upgrades": [30,31,32,33,40,41,42,43,50,51,52,53]}
 
 		]},
 
@@ -37,7 +37,7 @@
 	       {"id":590,"name":"AH-1 Cobra Attack Helicopter Platoon","pts":9,"units":"2 x AH-1 Cobra (TOW-2)"},
 	       {"id":591,"name":"AH-1 Cobra Attack Helicopter Platoon","pts":18,"units":"4 x AH-1 Cobra (TOW-2)"},
 
-	       {"id":600,"name":"A-10 Warthog Flight","pts":10,"units":"2 x A-10 Warthog"}
+	       {"id":600,"name":"A-10 Warthog Flight","pts":10,"units":"2 x A-10 Warthog"},
 	       {"id":601,"name":"A-10 Warthog Flight","pts":20,"units":"4 x A-10 Warthog"}
 
 	    ]}
@@ -66,12 +66,12 @@
       	{"id": 50, "name": "HMMWV-TOW Anti Tank Platoon", "units": "2 x HMMWV-TOW", "pts": 2},
       	{"id": 51, "name": "HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW", "pts": 4},
       	{"id": 52, "name": "HMMWV-TOW Anti Tank Platoon", "units": "2 x HMMWV-TOW-2", "pts": 3},
-      	{"id": 53, "name": "HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5}
+      	{"id": 53, "name": "HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5},
 
       	{"id": 100, "name": "Arm Battery with Minelets", "pts": 1},
       	{"id": 101, "name": "Arm Battery with Bomblets", "pts": 1},
       	{"id": 102, "name": "Arm Battery with Copperhead Laser-Guided Projectiles", "pts": 3},
-      	{"id": 103, "name": "Arm Battery with Copperhead Laser-Guided Projectiles", "pts": 6},      
+      	{"id": 103, "name": "Arm Battery with Copperhead Laser-Guided Projectiles", "pts": 6}      
 
 	],
 
