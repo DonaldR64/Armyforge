@@ -11,34 +11,34 @@
 		]},
 
 	    {"name":"Support","formations":[
-	       {"id":510,"name":"M109 Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
-	       {"id":511,"name":"M109 Field Artillery Battery","pts":14,"units":"6 x M109","upgrades":[100,101,103]},
+	       {"id":510,"name":"M109 (3) Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
+	       {"id":511,"name":"M109 (6) Field Artillery Battery","pts":14,"units":"6 x M109","upgrades":[100,101,103]},
 
-	       {"id":520,"name":"M163 VADS AA Platoon","pts":3,"units":"2 x M163 VADS"},
-	       {"id":521,"name":"M163 VADS AA Platoon","pts":6,"units":"4 x M163 VADS"},
+	       {"id":520,"name":"M163 (2) VADS AA Platoon","pts":3,"units":"2 x M163 VADS"},
+	       {"id":521,"name":"M163 (4) VADS AA Platoon","pts":6,"units":"4 x M163 VADS"},
 
-	       {"id":530,"name":"HMMWV SAM Platoon","pts":2,"units":"2 x HMMWV Stinger"},
-	       {"id":531,"name":"HMMWV SAM Platoon","pts":4,"units":"4 x HMMWV Stinger"},
+	       {"id":530,"name":"HMMWV (2) SAM Platoon","pts":2,"units":"2 x HMMWV Stinger"},
+	       {"id":531,"name":"HMMWV (4) SAM Platoon","pts":4,"units":"4 x HMMWV Stinger"},
 
-	       {"id":540,"name":"M270 MLRS Rocket Launcher Battery","pts":6,"units":"2 x M270 MLRS","upgrades":[100]},
-	       {"id":541,"name":"M270 MLRS Rocket Launcher Battery","pts":9,"units":"3 x M270 MLRS","upgrades":[100]},
+	       {"id":540,"name":"M270 (2) MLRS Rocket Launcher Battery","pts":6,"units":"2 x M270 MLRS","upgrades":[100]},
+	       {"id":541,"name":"M270 (3) MLRS Rocket Launcher Battery","pts":9,"units":"3 x M270 MLRS","upgrades":[100]},
 
 	       {"id":550,"name":"M113 Fist","pts":1,"units":"1 x M113 FIST"},
 
-	       {"id":560,"name":"M48 Chaparral SAM Platoon","pts":4,"units":"2 x M48 Chaparral"},
-	       {"id":561,"name":"M48 Chaparral SAM Platoon","pts":8,"units":"4 x M48 Chaparral"},
+	       {"id":560,"name":"M48 (2) Chaparral SAM Platoon","pts":4,"units":"2 x M48 Chaparral"},
+	       {"id":561,"name":"M48 (4) Chaparral SAM Platoon","pts":8,"units":"4 x M48 Chaparral"},
 
-	       {"id":570,"name":"M247 Sergeant York AA Platoon","pts":4,"units":"2 x M247 Sergeant York"},
-	       {"id":571,"name":"M247 Sergeant York AA Platoon","pts":8,"units":"4 x M247 Sergeant York"},
+	       {"id":570,"name":"M247 (2) Sergeant York AA Platoon","pts":4,"units":"2 x M247 Sergeant York"},
+	       {"id":571,"name":"M247 (4) Sergeant York AA Platoon","pts":8,"units":"4 x M247 Sergeant York"},
 
-	       {"id":580,"name":"AH-64 Apache Attack Helicopter Platoon","pts":12,"units":"2 x AH-64 Apache"},
-	       {"id":581,"name":"AH-64 Apache Attack Helicopter Platoon","pts":24,"units":"4 x AH-64 Apache"},
+	       {"id":580,"name":"AH-64 (2) Apache Attack Helicopter Platoon","pts":12,"units":"2 x AH-64 Apache"},
+	       {"id":581,"name":"AH-64 (4) Apache Attack Helicopter Platoon","pts":24,"units":"4 x AH-64 Apache"},
 
-	       {"id":590,"name":"AH-1 Cobra Attack Helicopter Platoon","pts":9,"units":"2 x AH-1 Cobra (TOW-2)"},
-	       {"id":591,"name":"AH-1 Cobra Attack Helicopter Platoon","pts":18,"units":"4 x AH-1 Cobra (TOW-2)"},
+	       {"id":590,"name":"AH-1 (2) Cobra Attack Helicopter Platoon","pts":9,"units":"2 x AH-1 Cobra (TOW-2)"},
+	       {"id":591,"name":"AH-1 (4) Cobra Attack Helicopter Platoon","pts":18,"units":"4 x AH-1 Cobra (TOW-2)"},
 
-	       {"id":600,"name":"A-10 Warthog Flight","pts":10,"units":"2 x A-10 Warthog"},
-	       {"id":601,"name":"A-10 Warthog Flight","pts":20,"units":"4 x A-10 Warthog"}
+	       {"id":600,"name":"A-10 (2) Warthog Flight","pts":10,"units":"2 x A-10 Warthog"},
+	       {"id":601,"name":"A-10 (4) Warthog Flight","pts":20,"units":"4 x A-10 Warthog"}
 
 	    ]}
 	],
@@ -53,20 +53,20 @@
       	{"id": 23, "name": "UH-1 Huey", "pts": 0},
 
 
-      	{"id": 30, "name": "M551 Sheridan Tank Platoon", "units": "2 x M551 Sheridan", "pts": 4},
-      	{"id": 31, "name": "M551 Sheridan Tank Platoon", "units": "3 x M551 Sheridan", "pts": 6},
-      	{"id": 32, "name": "M551 Sheridan Tank Platoon", "units": "4 x M551 Sheridan", "pts": 8},
-      	{"id": 33, "name": "M551 Sheridan Tank Platoon", "units": "5 x M551 Sheridan", "pts": 10},
+      	{"id": 30, "name": "M551 (2) Sheridan Tank Platoon", "units": "2 x M551 Sheridan", "pts": 4},
+      	{"id": 31, "name": "M551 (3) Sheridan Tank Platoon", "units": "3 x M551 Sheridan", "pts": 6},
+      	{"id": 32, "name": "M551 (4) Sheridan Tank Platoon", "units": "4 x M551 Sheridan", "pts": 8},
+      	{"id": 33, "name": "M551 (5) Sheridan Tank Platoon", "units": "5 x M551 Sheridan", "pts": 10},
 
-	    {"id": 40, "name": "HMMWV Scout Section", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW", "pts": 2},
-	    {"id": 41, "name": "HMMWV Scout Section", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 3},
-	    {"id": 42, "name": "HMMWV Scout Section", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW-2", "pts": 3},
-	    {"id": 43, "name": "HMMWV Scout Section", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW-2", "pts": 4},
+	    {"id": 40, "name": "HMMWV Scout Section (TOW-1)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW", "pts": 2},
+	    {"id": 41, "name": "HMMWV Scout Section (TOW-1)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 3},
+	    {"id": 42, "name": "HMMWV Scout Section (TOW-2)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW-2", "pts": 3},
+	    {"id": 43, "name": "HMMWV Scout Section (TOW-2)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW-2", "pts": 4},
 
-      	{"id": 50, "name": "HMMWV-TOW Anti Tank Platoon", "units": "2 x HMMWV-TOW", "pts": 2},
-      	{"id": 51, "name": "HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW", "pts": 4},
-      	{"id": 52, "name": "HMMWV-TOW Anti Tank Platoon", "units": "2 x HMMWV-TOW-2", "pts": 3},
-      	{"id": 53, "name": "HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5},
+      	{"id": 50, "name": "HMMWV-TOW (2) Anti Tank Platoon", "units": "2 x HMMWV-TOW", "pts": 2},
+      	{"id": 51, "name": "HMMWV-TOW (4) Anti Tank Platoon", "units": "4 x HMMWV-TOW", "pts": 4},
+      	{"id": 52, "name": "HMMWV-TOW-2 (2) Anti Tank Platoon", "units": "2 x HMMWV-TOW-2", "pts": 3},
+      	{"id": 53, "name": "HMMWV-TOW-2 (4) Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5},
 
       	{"id": 100, "name": "Arm Battery with Minelets", "pts": 1},
       	{"id": 101, "name": "Arm Battery with Bomblets", "pts": 1},
@@ -87,7 +87,7 @@
 	    {"max": 1, "from": [520,521]},
 	    {"max": 1, "from": [530,531]},
 	    {"max": 1, "from": [540,541]},
-	    {"max": 1, "from": [550], "forEach": [510,511,540,541]},
+	    {"max": 1, "from": [550],"perArmy": true, "forEach": [510,511,540,541]},
 	   	{"max": 1, "from": [560,561]},
 	   	{"max": 1, "from": [570,571]},
 	   	{"max": 1, "from": [580,581]},
