@@ -10,7 +10,7 @@
          {"id": 503, "name": "M60 Patton Armoured Combat Team", "pts":0, "upgrades": [30,31,32,33,34,35,36,13,14,15,16]},
          {"id": 504, "name": "M2 Bradley Mech Combat Team", "pts":0, "upgrades": [40,41,42,43,44,45,5,6,7,8,9,10,24,25,26,27,28,29]},
          {"id": 505, "name": "M113 Mech Combat Team", "pts":0, "upgrades": [50,51,52,53,54,5,6,7,8,9,10,24,25,26,27,28,29,32,33,34,11,12,35,36,13,14,15,16]},
-         {"id": 506, "name": "UH-1 Huey Infantry Combat Team", "pts":0, "upgrades": []},
+         {"id": 506, "name": "UH-1 Huey Infantry Combat Team", "pts":0, "upgrades": [60,61,62,63,64,65,66,71,72,73,74,75,76,77,78,81,82,83,84]},
          {"id": 507, "name": "M3 Bradley Armoured Combat Troop", "pts":0, "upgrades": []},
          {"id": 508, "name": "M113 Armoured Cavalry Troop", "pts":0, "upgrades": []},
          {"id": 509, "name": "HMMWV Cavalry Troop", "pts":0, "upgrades": []}
@@ -94,7 +94,7 @@
       {"id": 72, "name": "HMMWV-TOW Anti Tank Platoon: 4 x HMMWV-TOW", "pts": 4},
       {"id": 73, "name": "HMMWV-TOW Anti Tank Platoon: 2 x HMMWV-TOW-2", "pts": 3},
       {"id": 74, "name": "HMMWV-TOW Anti Tank Platoon: 4 x HMMWV-TOW-2", "pts": 5},
-      
+
       {"id": 75, "name": "M551 Sheridan Tank Platoon: 2 x M551 Sheridan", "pts": 4},
       {"id": 76, "name": "M551 Sheridan Tank Platoon: 3 x M551 Sheridan", "pts": 6},
       {"id": 77, "name": "M551 Sheridan Tank Platoon: 4 x M551 Sheridan", "pts": 8},
