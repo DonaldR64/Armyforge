@@ -1,5 +1,8 @@
 {
-	"id": "82nd Airborne Division, UH-1 Huey Infantry Combat Team",
+	"id": "UH-1 Huey Infantry Combat Team",
+	"version": "Team Yankee V2",
+	"by": "DR",
+	"notes": "",
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 1, "units": "1 x M16 Rifle Team"},
@@ -15,25 +18,25 @@
 
 
 	    {"name":"Support","formations":[
-	       {"id":510,"name":"M109 (3) Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
-	       {"id":511,"name":"M109 (6) Field Artillery Battery","pts":14,"units":"6 x M109","upgrades":[100,101,103]},
+	       {"id":510,"name":"3 x M109 Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
+	       {"id":511,"name":"6 x M109 Field Artillery Battery","pts":14,"units":"6 x M109","upgrades":[100,101,103]},
 
-	       {"id":520,"name":"M163 (2) VADS AA Platoon","pts":3,"units":"2 x M163 VADS"},
-	       {"id":521,"name":"M163 (4) VADS AA Platoon","pts":6,"units":"4 x M163 VADS"},
+	       {"id":520,"name":"2 x M163 VADS AA Platoon","pts":3,"units":"2 x M163 VADS"},
+	       {"id":521,"name":"4 x M163 VADS AA Platoon","pts":6,"units":"4 x M163 VADS"},
 
-	       {"id":530,"name":"HMMWV (2) SAM Platoon","pts":2,"units":"2 x HMMWV Stinger"},
-	       {"id":531,"name":"HMMWV (4) SAM Platoon","pts":4,"units":"4 x HMMWV Stinger"},
+	       {"id":530,"name":"2 x HMMWV SAM Platoon","pts":2,"units":"2 x HMMWV Stinger"},
+	       {"id":531,"name":"4 x HMMWV SAM Platoon","pts":4,"units":"4 x HMMWV Stinger"},
 
-	       {"id":540,"name":"M270 (2) MLRS Rocket Launcher Battery","pts":6,"units":"2 x M270 MLRS","upgrades":[100]},
-	       {"id":541,"name":"M270 (3) MLRS Rocket Launcher Battery","pts":9,"units":"3 x M270 MLRS","upgrades":[100]},
+	       {"id":540,"name":"2 x M270 MLRS Rocket Launcher Battery","pts":6,"units":"2 x M270 MLRS","upgrades":[100]},
+	       {"id":541,"name":"3 x M270 MLRS Rocket Launcher Battery","pts":9,"units":"3 x M270 MLRS","upgrades":[100]},
 
 	       {"id":550,"name":"M113 Fist","pts":1,"units":"1 x M113 FIST"},
 
-	       {"id":560,"name":"M48 (2) Chaparral SAM Platoon","pts":4,"units":"2 x M48 Chaparral"},
-	       {"id":561,"name":"M48 (4) Chaparral SAM Platoon","pts":8,"units":"4 x M48 Chaparral"},
+	       {"id":560,"name":"2 x M48 Chaparral SAM Platoon","pts":4,"units":"2 x M48 Chaparral"},
+	       {"id":561,"name":"4 x M48 Chaparral SAM Platoon","pts":8,"units":"4 x M48 Chaparral"},
 
-	       {"id":570,"name":"M247 (2) Sergeant York AA Platoon","pts":4,"units":"2 x M247 Sergeant York"},
-	       {"id":571,"name":"M247 (4) Sergeant York AA Platoon","pts":8,"units":"4 x M247 Sergeant York"},
+	       {"id":570,"name":"2 x M247 Sergeant York AA Platoon","pts":4,"units":"2 x M247 Sergeant York"},
+	       {"id":571,"name":"4 x M247 Sergeant York AA Platoon","pts":8,"units":"4 x M247 Sergeant York"},
 
 	       {"id":580,"name":"2 x AH-64 Apache Attack Helicopter Platoon","pts":12,"units":"2 x AH-64 Apache"},
 	       {"id":581,"name":"4 x AH-64 Apache Attack Helicopter Platoon","pts":24,"units":"4 x AH-64 Apache"},
@@ -55,7 +58,6 @@
       	{"id": 21, "name": "M60 GPMG Team", "pts": 1},
       	{"id": 22, "name": "M224 60mm Mortar Team", "pts": 1},
       	{"id": 23, "name": "UH-1 Huey", "pts": 0},
-
 
       	{"id": 30, "name": "2 x M551 Sheridan Tank Platoon", "pts": 4},
       	{"id": 31, "name": "3 x M551 Sheridan Tank Platoon", "pts": 6},
