@@ -73,14 +73,44 @@
       {"id": 41, "name": "M2A2 Bradley Mechanized Team HQ: 1 x M16 Rifle Team / 1 x M2A2 Bradley", "pts": 3},
       {"id": 42, "name": "M2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2 Bradley", "pts": 10},
       {"id": 43, "name": "M2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2 Bradley", "pts": 15},
-      {"id": 44, "name": "M2A2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2 Bradley", "pts": 11},
-      {"id": 45, "name": "M2A2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2 Bradley", "pts": 16},
+      {"id": 44, "name": "M2A2 Bradley Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M2A2 Bradley", "pts": 11},
+      {"id": 45, "name": "M2A2 Bradley Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M2A2 Bradley", "pts": 16},
 
       {"id": 50, "name": "M113 Mech Combat Team HQ: 1 x M16 Rifle Team / 1 x M113", "pts": 1},
       {"id": 51, "name": "M113 Mechanized Platoon: 3 SAW Teams, 2 Dragon Teams, 3 M113", "pts": 4},
       {"id": 52, "name": "M113 Mechanized Platoon: 3 SAW Teams, 3 Dragon Teams, 3 M113", "pts": 5},
       {"id": 53, "name": "M113 Mechanized Platoon: 4 SAW Teams, 3 Dragon Teams, 4 M113", "pts": 6},      
       {"id": 54, "name": "M113 Mechanized Platoon: 4 SAW Teams, 4 Dragon Teams, 4 M113", "pts": 7},
+
+      {"id": 60, "name": "UH-1 Huey Infantry HQ: 1 x M16 Rifle Team", "pts": 1},
+      {"id": 61, "name": "UH-1 Huey Rifle Platoon: 5 SAW Teams, 1 Dragon Team, 2 UH-1 Huey", "pts": 6},
+      {"id": 62, "name": "UH-1 Huey Rifle Platoon: 7 SAW Teams, 1 Dragon Team, 3 UH-1 Huey", "pts": 8},
+      {"id": 63, "name": "Add a M47 Dragon Team", "pts": 1},
+      {"id": 64, "name": "Add a M60 GPMG Team", "pts": 1},
+      {"id": 65, "name": "Add a M224 60mm Mortar Team", "pts": 1},
+      {"id": 66, "name": "Add a UH-1 Huey", "pts": 0},
+
+      {"id": 71, "name": "HMMWV-TOW Anti Tank Platoon: 2 x HMMWV-TOW", "pts": 2},
+      {"id": 72, "name": "HMMWV-TOW Anti Tank Platoon: 4 x HMMWV-TOW", "pts": 4},
+      {"id": 73, "name": "HMMWV-TOW Anti Tank Platoon: 2 x HMMWV-TOW-2", "pts": 3},
+      {"id": 74, "name": "HMMWV-TOW Anti Tank Platoon: 4 x HMMWV-TOW-2", "pts": 5},
+      
+      {"id": 75, "name": "M551 Sheridan Tank Platoon: 2 x M551 Sheridan", "pts": 4},
+      {"id": 76, "name": "M551 Sheridan Tank Platoon: 3 x M551 Sheridan", "pts": 6},
+      {"id": 77, "name": "M551 Sheridan Tank Platoon: 4 x M551 Sheridan", "pts": 8},
+      {"id": 78, "name": "M551 Sheridan Tank Platoon: 5 x M551 Sheridan", "pts": 10},
+      
+      {"id": 81, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW", "pts": 2},
+      {"id": 82, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 3},
+      {"id": 83, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW-2", "pts": 3},
+      {"id": 84, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 4},
+
+
+
+
+
+
+
 
       {"id": 100, "name": "add 2 x AH-64 Apache", "pts": 12},
       {"id": 101, "name": "add 2 x AH-1 Cobra (TOW-2)", "pts": 9},
@@ -146,7 +176,17 @@
       {"max": 2, "from": [11,12,35,36], "appliesTo": [504]}, 
       {"max": 4, "from": [13,14], "appliesTo": [504]},
       {"max": 1, "from": [15,16], "appliesTo": [504]}, 
- 
+
+      {"max": 1, "min": 1, "from": [60], "appliesTo": [506]},
+      {"max": 3, "min": 2, "from": [61,62], "appliesTo": [506]}, 
+      {"max": 1, "from": [63], "appliesTo": [506], "forEach": [61,62]}, 
+      {"max": 2, "from": [64], "appliesTo": [506], "forEach": [61,62]},
+      {"max": 1, "from": [65], "appliesTo": [506], "forEach": [61,62]}, 
+      {"max": 1, "from": [66], "appliesTo": [506], "forEach": [61,62]}, 
+      {"max": 2, "min": 0, "from": [75,76,77,78], "appliesTo": [506]}, 
+      {"max": 1, "min": 0, "from": [81,82,83,84], "appliesTo": [506]}, 
+      {"max": 1, "min": 0, "from": [71,72,73,74], "appliesTo": [506]}, 
+
 
 
 
