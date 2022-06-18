@@ -5,10 +5,14 @@
 			{"id": 501, "name": "HQ Unit","pts": 1, "units": "1 x M16 Rifle Team"},
 			{"id": 502, "name": "1st Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
 			{"id": 503, "name": "2nd Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
-			{"id": 504, "name": "3rd Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]},
-			{"id": 505, "name": "Additional Units","pts": 0,"upgrades": [30,31,32,33,40,41,42,43,50,51,52,53]}
-
+			{"id": 504, "name": "3rd Platoon","pts": 0,"upgrades": [10,11,20,21,22,23]}
 		]},
+		{"name": "Additional", "formations": [
+			{"id": 505, "name": "M551 Sheridan Tank Platoon","pts": 0,"upgrades": [30,31,32,33]},
+			{"id": 506, "name": "HMMWV Scout Platoon","pts": 0,"upgrades": [40,41,42,43]},
+			{"id": 507, "name": "HMMWV-TOW Antitank Platoon","pts": 0,"upgrades": [50,51,52,53]}
+		]},
+
 
 	    {"name":"Support","formations":[
 	       {"id":510,"name":"M109 (3) Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
@@ -31,14 +35,14 @@
 	       {"id":570,"name":"M247 (2) Sergeant York AA Platoon","pts":4,"units":"2 x M247 Sergeant York"},
 	       {"id":571,"name":"M247 (4) Sergeant York AA Platoon","pts":8,"units":"4 x M247 Sergeant York"},
 
-	       {"id":580,"name":"AH-64 (2) Apache Attack Helicopter Platoon","pts":12,"units":"2 x AH-64 Apache"},
-	       {"id":581,"name":"AH-64 (4) Apache Attack Helicopter Platoon","pts":24,"units":"4 x AH-64 Apache"},
+	       {"id":580,"name":"2 x AH-64 Apache Attack Helicopter Platoon","pts":12,"units":"2 x AH-64 Apache"},
+	       {"id":581,"name":"4 x AH-64 Apache Attack Helicopter Platoon","pts":24,"units":"4 x AH-64 Apache"},
 
-	       {"id":590,"name":"AH-1 (2) Cobra Attack Helicopter Platoon","pts":9,"units":"2 x AH-1 Cobra (TOW-2)"},
-	       {"id":591,"name":"AH-1 (4) Cobra Attack Helicopter Platoon","pts":18,"units":"4 x AH-1 Cobra (TOW-2)"},
+	       {"id":590,"name":"2 x AH-1 Cobra Attack Helicopter Platoon","pts":9,"units":"2 x AH-1 Cobra (TOW-2)"},
+	       {"id":591,"name":"4 x AH-1 Cobra Attack Helicopter Platoon","pts":18,"units":"4 x AH-1 Cobra (TOW-2)"},
 
-	       {"id":600,"name":"A-10 (2) Warthog Flight","pts":10,"units":"2 x A-10 Warthog"},
-	       {"id":601,"name":"A-10 (4) Warthog Flight","pts":20,"units":"4 x A-10 Warthog"}
+	       {"id":600,"name":"2 x A-10 Warthog Flight","pts":10,"units":"2 x A-10 Warthog"},
+	       {"id":601,"name":"4 x A-10 Warthog Flight","pts":20,"units":"4 x A-10 Warthog"}
 
 	    ]}
 	],
@@ -53,20 +57,20 @@
       	{"id": 23, "name": "UH-1 Huey", "pts": 0},
 
 
-      	{"id": 30, "name": "M551 (2) Sheridan Tank Platoon", "units": "2 x M551 Sheridan", "pts": 4},
-      	{"id": 31, "name": "M551 (3) Sheridan Tank Platoon", "units": "3 x M551 Sheridan", "pts": 6},
-      	{"id": 32, "name": "M551 (4) Sheridan Tank Platoon", "units": "4 x M551 Sheridan", "pts": 8},
-      	{"id": 33, "name": "M551 (5) Sheridan Tank Platoon", "units": "5 x M551 Sheridan", "pts": 10},
+      	{"id": 30, "name": "2 x M551 Sheridan Tank Platoon", "pts": 4},
+      	{"id": 31, "name": "3 x M551 Sheridan Tank Platoon", "pts": 6},
+      	{"id": 32, "name": "4 x M551 Sheridan Tank Platoon", "pts": 8},
+      	{"id": 33, "name": "5 x M551 Sheridan Tank Platoon", "pts": 10},
 
-	    {"id": 40, "name": "HMMWV Scout Section (TOW-1)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW", "pts": 2},
-	    {"id": 41, "name": "HMMWV Scout Section (TOW-1)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 3},
-	    {"id": 42, "name": "HMMWV Scout Section (TOW-2)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW-2", "pts": 3},
-	    {"id": 43, "name": "HMMWV Scout Section (TOW-2)", "units": "1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW-2", "pts": 4},
+	    {"id": 40, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW", "pts": 2},
+	    {"id": 41, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW", "pts": 3},
+	    {"id": 42, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 1 x HMMWV-TOW-2", "pts": 3},
+	    {"id": 43, "name": "HMMWV Scout Section: 1 x HMMWV-M2, 1 x HMMWV-MK19, 2 x HMMWV-TOW-2", "pts": 4},
 
-      	{"id": 50, "name": "HMMWV-TOW (2) Anti Tank Platoon", "units": "2 x HMMWV-TOW", "pts": 2},
-      	{"id": 51, "name": "HMMWV-TOW (4) Anti Tank Platoon", "units": "4 x HMMWV-TOW", "pts": 4},
-      	{"id": 52, "name": "HMMWV-TOW-2 (2) Anti Tank Platoon", "units": "2 x HMMWV-TOW-2", "pts": 3},
-      	{"id": 53, "name": "HMMWV-TOW-2 (4) Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5},
+      	{"id": 50, "name": "2 x HMMWV-TOW Anti Tank Platoon", "units": "2 x HMMWV-TOW", "pts": 2},
+      	{"id": 51, "name": "4 x HMMWV-TOW Anti Tank Platoon", "units": "4 x HMMWV-TOW", "pts": 4},
+      	{"id": 52, "name": "2 x HMMWV-TOW-2 Anti Tank Platoon", "units": "2 x HMMWV-TOW-2", "pts": 3},
+      	{"id": 53, "name": "4 x HMMWV-TOW-2 Anti Tank Platoon", "units": "4 x HMMWV-TOW-2", "pts": 5},
 
       	{"id": 100, "name": "Arm Battery with Minelets", "pts": 1},
       	{"id": 101, "name": "Arm Battery with Bomblets", "pts": 1},
@@ -80,8 +84,9 @@
     	{"max": 1, "min": 1, "from": [502]},
     	{"max": 1, "min": 1, "from": [503]},
     	{"max": 1, "min": 0, "from": [504]},
-
-
+    	{"max": 2, "min": 0, "from": [505]},
+    	{"max": 1, "min": 0, "from": [506]},
+    	{"max": 1, "min": 0, "from": [507]},
 
     	{"max": 1, "from": [510,511]},
 	    {"max": 1, "from": [520,521]},
@@ -105,9 +110,9 @@
       	{"max": 1, "min": 0, "from": [22], "appliesTo": [502,503,504]},
       	{"max": 1, "min": 0, "from": [23], "appliesTo": [502,503,504]},
 
-      	{"max": 2, "min": 0, "from": [30,31,32,33]},
-      	{"max": 1, "min": 0, "from": [40,41,42,43]},
-      	{"max": 1, "min": 0, "from": [50,51,52,53]},
+      	{"max": 1, "min": 0, "from": [30,31,32,33], "appliesTo": [505]},
+      	{"max": 1, "min": 0, "from": [40,41,42,43], "appliesTo": [506]},
+      	{"max": 1, "min": 0, "from": [50,51,52,53], "appliesTo": [507]},
 
       	{"max": 1, "min": 0, "from": [100], "appliesTo": [510,511,540,541]},
       	{"max": 1, "min": 0, "from": [101], "appliesTo": [510,511]},
