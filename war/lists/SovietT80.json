@@ -45,8 +45,6 @@
 	       {"id":564,"name":"MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
 	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"upgrades":[101,102,103]},	 
 	       {"id":566,"name":"MI-24 Assault Landing Company","pts":0,"upgrades":[120,121,122,123,124,125]}	 
-
-
 	    ]}
 	],
 
@@ -179,10 +177,9 @@
       	{"id": 122, "name": "4 x AK-74 Teams, 4 x RPG-7 Teams", "pts": 4},
       	{"id": 123, "name": "4 x AK-74 Teams, 4 x RPG-7VR Teams", "pts": 6},
       	{"id": 124, "name": "6 x AK-74 Teams, 6 x RPG-7 Teams", "pts": 6},
-      	{"id": 125, "name": "6 x AK-74 Teams, 6 x RPG-7VR Teams", "pts": 8}
-
-
+      	{"id": 125, "name": "6 x AK-74 Teams, 6 x RPG-7VR Teams", "pts": 8}		
 	],
+
 
    	"formationConstraints": [
     	{"max": 1, "min": 1, "from": [501]},
