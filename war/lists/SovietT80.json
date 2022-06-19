@@ -2,7 +2,7 @@
 	"id": "T-80 Tank Battalion",
 	"version": "Team Yankee V2",
 	"by": "DR",
-	"notes": "",
+	"notes": "If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.",
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 8, "units": "1 x T-80", "upgrades": [1]},
@@ -29,21 +29,22 @@
 
 	    {"name":"Support","formations":[
 	       {"id":550,"name":"2S1 Carnation SP Howitzer Battery","pts": 0, "upgrades":[49,50]},	     
-	       {"id":551,"name":"2S3 Acacia Heavy SP Howitzer Battery","pts": 0, "upgrades":[]},	     
-	       {"id":552,"name":"TOS-1 Thermobaric Rocket Launcher Battery","pts": 0,"upgrades":[]},	     
-	       {"id":553,"name":"BM-21 Hail Rocket Launcher Battery","pts": 0,"upgrades":[]},	            
-	       {"id":554,"name":"BM-27 Hurricane Rocket Launcher Battery","pts": 0,"upgrades":[]},	     
-	       {"id":555,"name":"BMP-1 OP","pts":1,"units":"BMP-1 OP","upgrades":[]},	 
-	       {"id":556,"name":"BMP-3 Recon Platoon","pts":0,"units":"","upgrades":[40,41,42]},	 
-	       {"id":557,"name":"BMP-2 Recon Platoon","pts":0,"units":"","upgrades":[43,44,45]},	 
-	       {"id":558,"name":"BMP-1 Recon Platoon","pts":0,"units":"","upgrades":[46,47,48]},	 
-	       {"id":559,"name":"Storm Anti-Tank Platoon","pts":0,"units":"","upgrades":[]},	 
-	       {"id":560,"name":"Spandrel Anti-Tank Platoon","pts":0,"units":"","upgrades":[]},	 
-	       {"id":561,"name":"SA-13 Gopher SAM Platoon","pts":0,"units":"","upgrades":[30,31]},	 
-	       {"id":562,"name":"SA-9 Gaskin SAM Platoon","pts":0,"units":"","upgrades":[32,33]},	 
-	       {"id":563,"name":"SA-8 Gecko SAM Platoon","pts":0,"units":"","upgrades":[]},	 
-	       {"id":564,"name":"MI-24 Assault Helicopter Company","pts":0,"units":"","upgrades":[]},	 
-	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"units":"","upgrades":[]}	 
+	       {"id":551,"name":"2S3 Acacia Heavy SP Howitzer Battery","pts": 0, "upgrades":[105,106,107,108]},	     
+	       {"id":552,"name":"TOS-1 Thermobaric Rocket Launcher Battery","pts": 0,"upgrades":[109,110]},	     
+	       {"id":553,"name":"BM-21 Hail Rocket Launcher Battery","pts": 0,"upgrades":[95,96]},	            
+	       {"id":554,"name":"BM-27 Hurricane Rocket Launcher Battery","pts": 0,"upgrades":[97,98]},	     
+	       {"id":555,"name":"BMP-1 OP","pts":1,"units":"BMP-1 OP"},	 
+	       {"id":556,"name":"BMP-3 Recon Platoon","pts":0,"upgrades":[40,41,42]},	 
+	       {"id":557,"name":"BMP-2 Recon Platoon","pts":0,"upgrades":[43,44,45]},	 
+	       {"id":558,"name":"BMP-1 Recon Platoon","pts":0,"upgrades":[46,47,48]},	 
+	       {"id":559,"name":"Storm Anti-Tank Platoon","pts":0,"upgrades":[91,92,93,94]},	 
+	       {"id":560,"name":"Spandrel Anti-Tank Platoon","pts":0,"upgrades":[89,90]},	 
+	       {"id":561,"name":"SA-13 Gopher SAM Platoon","pts":0,"upgrades":[30,31]},	 
+	       {"id":562,"name":"SA-9 Gaskin SAM Platoon","pts":0,"upgrades":[32,33]},	 
+	       {"id":563,"name":"SA-8 Gecko SAM Platoon","pts":0,"upgrades":[99,100]},	 
+	       {"id":564,"name":"MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
+	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"upgrades":[101,102,103]},	 
+	       {"id":566,"name":"MI-24 Assault Landing Company","pts":0,"upgrades":[120,121,122,123,124,125]}	 
 
 
 	    ]}
@@ -135,11 +136,50 @@
       	{"id": 85, "name": "10 x AK-74 Teams, 9 x RPG-7VR Teams, 1 x PKM LMG Teams, 11 x BTR-60", "pts": 17},
       	{"id": 86, "name": "AGS-17 Grenade Launcher Team & BTR-60", "pts": 1},
       	{"id": 87, "name": "SA-14 Gremlin AA Missile Team & BTR-60", "pts": 1},
-      	{"id": 88, "name": "AT-4 Spigot Missile Team & BTR-60", "pts": 2}
+      	{"id": 88, "name": "AT-4 Spigot Missile Team & BTR-60", "pts": 2},
 
+      	{"id": 89, "name": "2 x Spandrel", "pts": 1},
+      	{"id": 90, "name": "3 x Spandrel", "pts": 2},
       	
+      	{"id": 91, "name": "2 x Storm (AT-6 Spiral)", "pts": 2},
+      	{"id": 92, "name": "3 x Storm (AT-6 Spiral)", "pts": 3},
+      	{"id": 93, "name": "2 x Storm (AT-9 Spiral-2)", "pts": 3},
+      	{"id": 94, "name": "3 x Storm (AT-9 Spiral-2)", "pts": 4},
 
+      	{"id": 95, "name": "3 x BM-21 Hail", "pts": 4},
+      	{"id": 96, "name": "6 x BM-21 Hail", "pts": 8},
 
+      	{"id": 97, "name": "3 x BM-27 Hail", "pts": 7},
+      	{"id": 98, "name": "6 x BM-27 Hail", "pts": 14},
+
+      	{"id": 99, "name": "2 x SA-8 Gecko", "pts": 4},
+      	{"id": 100, "name": "4 x SA-8 Gecko", "pts": 8},
+
+      	{"id": 101, "name": "2 x SU-25 Frogfoot", "pts": 7},
+      	{"id": 102, "name": "4 x SU-25 Frogfoot", "pts": 14},
+      	{"id": 103, "name": "6 x SU-25 Frogfoot", "pts": 21},
+
+      	{"id": 105, "name": "3 x 2S3 Acacia", "pts": 5},
+      	{"id": 106, "name": "3 x 2S3 Acacia with Krasnopol Projectiles", "pts": 7},
+      	{"id": 107, "name": "6 x 2S3 Acacia", "pts": 10},
+      	{"id": 108, "name": "6 x 2S3 Acacia with Krasnopol Projectiles", "pts": 14},
+
+      	{"id": 109, "name": "3 x TOS-1", "pts": 10},
+      	{"id": 110, "name": "6 x TOS-1", "pts": 20},
+
+      	{"id": 111, "name": "2 x Mi-24 Hind", "pts": 5},
+      	{"id": 112, "name": "4 x Mi-24 Hind", "pts": 10},
+      	{"id": 113, "name": "6 x Mi-24 Hind", "pts": 15},
+      	{"id": 114, "name": "2 x Mi-24 Hind (AT-9)", "pts": 6},
+      	{"id": 115, "name": "4 x Mi-24 Hind (AT-9)", "pts": 12},
+      	{"id": 116, "name": "6 x Mi-24 Hind (AT-9)", "pts": 18},
+
+      	{"id": 120, "name": "2 x AK-74 Teams, 2 x RPG-7 Teams", "pts": 2},
+      	{"id": 121, "name": "2 x AK-74 Teams, 2 x RPG-7VR Teams", "pts": 4},
+      	{"id": 122, "name": "4 x AK-74 Teams, 4 x RPG-7 Teams", "pts": 4},
+      	{"id": 123, "name": "4 x AK-74 Teams, 4 x RPG-7VR Teams", "pts": 6},
+      	{"id": 124, "name": "6 x AK-74 Teams, 6 x RPG-7 Teams", "pts": 6},
+      	{"id": 125, "name": "6 x AK-74 Teams, 6 x RPG-7VR Teams", "pts": 8}
 
 
 	],
@@ -163,7 +203,8 @@
     	{"max": 1, "min": 0, "from": [559,560]},
     	{"max": 1, "min": 0, "from": [561,562,563]},
     	{"max": 1, "min": 0, "from": [564]},
-    	{"max": 1, "min": 0, "from": [565]}
+    	{"max": 1, "min": 0, "from": [565]},
+    	{"max": 1, "min": 0, "from": [566]}
     ],
 
 
@@ -195,20 +236,22 @@
    	    {"max": 1, "min": 0, "from": [76], "appliesTo": [507]},
    	    {"max": 1, "min": 0, "from": [77], "appliesTo": [507]},
 
-   	    {"max": 1, "min": 1, "from": [80,81,82,83,84,85], "appliesTo": [507]},
-   	    {"max": 1, "min": 0, "from": [86], "appliesTo": [507]},
-   	    {"max": 1, "min": 0, "from": [87], "appliesTo": [507]},
-   	    {"max": 1, "min": 0, "from": [88], "appliesTo": [507]}
+   	    {"max": 1, "min": 1, "from": [80,81,82,83,84,85], "appliesTo": [508]},
+   	    {"max": 1, "min": 0, "from": [86], "appliesTo": [508]},
+   	    {"max": 1, "min": 0, "from": [87], "appliesTo": [508]},
+   	    {"max": 1, "min": 0, "from": [88], "appliesTo": [508]},
 
+   	    {"max": 1, "min": 1, "from": [89,90], "appliesTo": [560]},
+   	    {"max": 1, "min": 1, "from": [91,92,93,94], "appliesTo": [559]},
+   	    {"max": 1, "min": 1, "from": [95,96], "appliesTo": [553]},
+   	    {"max": 1, "min": 1, "from": [97,98], "appliesTo": [554]},
 
-
-
-
+   	    {"max": 1, "min": 1, "from": [99,100], "appliesTo": [563]},
+   	    {"max": 1, "min": 1, "from": [101,102,103], "appliesTo": [565]},
+   	    {"max": 1, "min": 1, "from": [105,106,107,108], "appliesTo": [551]},
+   	    {"max": 1, "min": 1, "from": [109,110], "appliesTo": [552]},
+   	    {"max": 1, "min": 1, "from": [111,112,113,114,115,116], "appliesTo": [564]},
+   	    {"max": 1, "min": 1, "from": [120,121,122,123,124,125], "appliesTo": [566]}
 
    ]
-
-
-
-
-
 }
