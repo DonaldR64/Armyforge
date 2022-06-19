@@ -137,6 +137,10 @@
       	{"id": 87, "name": "SA-14 Gremlin AA Missile Team & BTR-60", "pts": 1},
       	{"id": 88, "name": "AT-4 Spigot Missile Team & BTR-60", "pts": 2}
 
+      	
+
+
+
 
 	],
 
@@ -169,15 +173,15 @@
       	{"max": 1, "min": 1, "from": [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25], "appliesTo": [502,503,504]},
    	    {"max": 1, "min": 0, "from": [26], "appliesTo": [502,503,504]},
 
-   	    {"max": 1, "min": 1, "from": [30,31], "appliesTo": [517]},
-   	    {"max": 1, "min": 1, "from": [33,33], "appliesTo": [516]},
+   	    {"max": 1, "min": 1, "from": [30,31], "appliesTo": [517,561]},
+   	    {"max": 1, "min": 1, "from": [32,33], "appliesTo": [516,562]},
    	    {"max": 1, "min": 1, "from": [34,35], "appliesTo": [515]},
    	    {"max": 1, "min": 1, "from": [36,37], "appliesTo": [514]},
    	    {"max": 1, "min": 1, "from": [38,39], "appliesTo": [512]},
-   	    {"max": 1, "min": 1, "from": [40,41,42], "appliesTo": [509]},
-   	    {"max": 1, "min": 1, "from": [43,44,45], "appliesTo": [510]},
-   	    {"max": 1, "min": 1, "from": [46,47,48], "appliesTo": [511]},
-   	    {"max": 1, "min": 1, "from": [49,50], "appliesTo": [513]},
+   	    {"max": 1, "min": 1, "from": [40,41,42], "appliesTo": [509,556]},
+   	    {"max": 1, "min": 1, "from": [43,44,45], "appliesTo": [510,557]},
+   	    {"max": 1, "min": 1, "from": [46,47,48], "appliesTo": [511,558]},
+   	    {"max": 1, "min": 1, "from": [49,50], "appliesTo": [513,550]},
 
    	    {"max": 1, "min": 1, "from": [51,52,53,54,55,56], "appliesTo": [505]},
    	    {"max": 1, "min": 0, "from": [57], "appliesTo": [505]},
@@ -199,7 +203,7 @@
 
 
 
-   	    
+
 
    ]
 
