@@ -28,9 +28,22 @@
 
 
 	    {"name":"Support","formations":[
-	       //{"id":510,"name":"3 x Marine M109 Field Artillery Battery","pts":7,"units":"3 x M109","upgrades":[100,101,102]},	     
-	       //{"id":511,"name":"6 x Marine M109 Field Artillery Battery","pts":14,"units":"6 x M109","upgrades":[100,101,103]},
-
+	       {"id":550,"name":"2S1 Carnation SP Howitzer Battery","pts": 0, "upgrades":[49,50]},	     
+	       {"id":551,"name":"2S3 Acacia Heavy SP Howitzer Battery","pts": 0, "upgrades":[]},	     
+	       {"id":552,"name":"TOS-1 Thermobaric Rocket Launcher Battery","pts": 0,"upgrades":[]},	     
+	       {"id":553,"name":"BM-21 Hail Rocket Launcher Battery","pts": 0,"upgrades":[]},	            
+	       {"id":554,"name":"BM-27 Hurricane Rocket Launcher Battery","pts": 0,"upgrades":[]},	     
+	       {"id":555,"name":"BMP-1 OP","pts":1,"units":"BMP-1 OP","upgrades":[]},	 
+	       {"id":556,"name":"BMP-3 Recon Platoon","pts":0,"units":"","upgrades":[40,41,42]},	 
+	       {"id":557,"name":"BMP-2 Recon Platoon","pts":0,"units":"","upgrades":[43,44,45]},	 
+	       {"id":558,"name":"BMP-1 Recon Platoon","pts":0,"units":"","upgrades":[46,47,48]},	 
+	       {"id":559,"name":"Storm Anti-Tank Platoon","pts":0,"units":"","upgrades":[]},	 
+	       {"id":560,"name":"Spandrel Anti-Tank Platoon","pts":0,"units":"","upgrades":[]},	 
+	       {"id":561,"name":"SA-13 Gopher SAM Platoon","pts":0,"units":"","upgrades":[30,31]},	 
+	       {"id":562,"name":"SA-9 Gaskin SAM Platoon","pts":0,"units":"","upgrades":[32,33]},	 
+	       {"id":563,"name":"SA-8 Gecko SAM Platoon","pts":0,"units":"","upgrades":[]},	 
+	       {"id":564,"name":"MI-24 Assault Helicopter Company","pts":0,"units":"","upgrades":[]},	 
+	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"units":"","upgrades":[]}	 
 
 
 	    ]}
@@ -136,9 +149,17 @@
     	{"max": 1, "min": 0, "from": [509,510,511,512]},
     	{"max": 1, "min": 0, "from": [513]},
     	{"max": 1, "min": 0, "from": [514,515]},
-    	{"max": 1, "min": 0, "from": [516,517]}
-
-
+    	{"max": 1, "min": 0, "from": [516,517]},
+    	{"max": 1, "min": 0, "from": [550]},
+    	{"max": 1, "min": 0, "from": [551]},
+    	{"max": 1, "min": 0, "from": [552]},
+    	{"max": 1, "min": 0, "from": [553,554]},
+    	{"max": 1, "min": 0, "perArmy": true, "from": [555]},
+    	{"max": 1, "min": 0, "from": [556,557,558]},
+    	{"max": 1, "min": 0, "from": [559,560]},
+    	{"max": 1, "min": 0, "from": [561,562,563]},
+    	{"max": 1, "min": 0, "from": [564]},
+    	{"max": 1, "min": 0, "from": [565]}
     ],
 
 
@@ -174,6 +195,11 @@
    	    {"max": 1, "min": 0, "from": [86], "appliesTo": [507]},
    	    {"max": 1, "min": 0, "from": [87], "appliesTo": [507]},
    	    {"max": 1, "min": 0, "from": [88], "appliesTo": [507]}
+
+
+
+
+   	    
 
    ]
 
