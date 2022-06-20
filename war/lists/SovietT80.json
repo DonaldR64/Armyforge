@@ -2,7 +2,8 @@
 	"id": "T-80 Tank Battalion",
 	"version": "Team Yankee V2",
 	"by": "DR",
-	"notes": "If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.",
+	"notes": ["If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company."],
+	"notes": ["You must field either: a 2S1 Carnation SP Howitzer Battery, a 2S3 Acacia Heavy SP Howitzer Battery, a BM-21 Hail Rocket Launcher Battery (TS109), or a BM-27 Hurricane Rocket Launcher Battery before you may field a BMP-1 OP."],
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 8, "units": "1 x T-80", "upgrades": [1]},
