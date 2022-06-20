@@ -29,7 +29,7 @@
 	       {"id":561,"name":"SA-13 Gopher SAM Platoon","pts":0,"upgrades":[30,31]},	 
 	       {"id":562,"name":"SA-9 Gaskin SAM Platoon","pts":0,"upgrades":[32,33]},	 
 	       {"id":563,"name":"SA-8 Gecko SAM Platoon","pts":0,"upgrades":[99,100]},	 
-	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"upgrades":[101,102,103]},	 
+	       {"id":565,"name":"SU-25 Frogfoot Aviation Company","pts":0,"upgrades":[101,102,103]}	 
 	    ]}
 	],
 
@@ -115,11 +115,8 @@
     	{"max": 1, "min": 0, "from": [556,557,558]},
     	{"max": 1, "min": 0, "from": [559,560]},
     	{"max": 1, "min": 0, "from": [561,562,563]},
-    	{"max": 1, "min": 0, "from": [565]},
+    	{"max": 1, "min": 0, "from": [565]}
     ],    	
-
-
-
 
    "upgradeConstraints": [      
       	{"max": 1, "min": 1, "from": [4,5,6,7,8,9], "appliesTo": [502,503,504]},
