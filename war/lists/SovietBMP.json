@@ -4,11 +4,11 @@
 	"by": "DR",
 	"notes": ["If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.", "You must field either: a 2S1 Carnation SP Howitzer Battery, a 2S3 Acacia Heavy SP Howitzer Battery, a BM-21 Hail Rocket Launcher Battery (TS109), or a BM-27 Hurricane Rocket Launcher Battery before you may field a BMP-1 OP."],
 	"sections": [
-		{"name": "Core", "formations": [
+		{"name": "Core (HQ & 2-3 Rifle Companies)", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 0, "upgrades": [1,2,3]},
-			{"id": 502, "name": "BMP-1 Motor Rifle Company","pts": 0,"upgrades": [20,21,22,23,24,25,26,27]},
+			{"id": 502, "name": "BMP-3 Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11]}
 			{"id": 503, "name": "BMP-2 Motor Rifle Company","pts": 0,"upgrades": [12,13,14,15,16,17,18,19]},
-			{"id": 504, "name": "BMP-3 Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11]}
+			{"id": 504, "name": "BMP-1 Motor Rifle Company","pts": 0,"upgrades": [20,21,22,23,24,25,26,27]},
 		]},
 		{"name": "Additional", "formations": [
 			{"id": 505, "name": "T-80 Tank Company","pts": 0,"upgrades": [200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216]},
@@ -49,9 +49,9 @@
 	],
 
 	"upgrades": [
-		{"id": 1, "name": "AK-74 Team + BMP-1", "pts": 1},
+		{"id": 1, "name": "AK-74 Team + BMP-3", "pts": 3},
 		{"id": 2, "name": "AK-74 Team + BMP-2", "pts": 2},
-		{"id": 3, "name": "AK-74 Team + BMP-3", "pts": 3},
+		{"id": 3, "name": "AK-74 Team + BMP-1", "pts": 1},
 
 		{"id": 4, "name": "4 x AK-74 Team, 3 x RPG-7 Team, 4 x BMP-3", "pts": 10},
 		{"id": 5, "name": "4 x AK-74 Team, 3 x RPG-7VR Team, 4 x BMP-3", "pts": 12},
@@ -232,8 +232,18 @@
 
    "upgradeConstraints": [      
    	    {"max": 1, "min": 0, "from": [1], "appliesTo": [501]},
-      	{"max": 1, "min": 1, "from": [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25], "appliesTo": [502,503,504]},
-   	    {"max": 1, "min": 0, "from": [26], "appliesTo": [502,503,504]},
+
+      	{"max": 1, "min": 1, "from": [4,5,6,7,8,9], "appliesTo": [502]},
+   	    {"max": 1, "min": 0, "from": [10], "appliesTo": [502]},
+   	    {"max": 1, "min": 0, "from": [11], "appliesTo": [502]},
+
+      	{"max": 1, "min": 1, "from": [12,13,14,15,16,17], "appliesTo": [503]},
+   	    {"max": 1, "min": 0, "from": [18], "appliesTo": [503]},
+   	    {"max": 1, "min": 0, "from": [19], "appliesTo": [503]},      	
+
+   	    {"max": 1, "min": 1, "from": [20,21,22,23,24,25], "appliesTo": [504]},
+   	    {"max": 1, "min": 0, "from": [26], "appliesTo": [504]},
+   	    {"max": 1, "min": 0, "from": [27], "appliesTo": [504]},
 
    	    {"max": 1, "min": 1, "from": [30,31], "appliesTo": [517,561]},
    	    {"max": 1, "min": 1, "from": [32,33], "appliesTo": [516,562]},
