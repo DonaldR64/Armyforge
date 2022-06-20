@@ -49,10 +49,6 @@
 	],
 
 	"upgrades": [
-		{"id": 1, "name": "AK-74 Team + BMP-3", "pts": 3},
-		{"id": 2, "name": "AK-74 Team + BMP-2", "pts": 2},
-		{"id": 3, "name": "AK-74 Team + BMP-1", "pts": 1},
-
 		{"id": 4, "name": "4 x AK-74 Team, 3 x RPG-7 Team, 4 x BTR-60", "pts": 5},
 		{"id": 5, "name": "4 x AK-74 Team, 3 x RPG-7VR Team, 4 x BTR-60", "pts": 7},
 		{"id": 6, "name": "7 x AK-74 Team, 6 x RPG-7 Team, 1 x PKM LMG Teams, 8 x BTR-60", "pts": 10},
