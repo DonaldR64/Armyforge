@@ -65,6 +65,10 @@
       	{"id": 38, "name": "2 x BRDM-2", "pts": 1},
       	{"id": 39, "name": "4 x BRDM-2", "pts": 2},
 
+      	{"id": 40, "name": "2 x BMP-3", "pts": 5},
+      	{"id": 41, "name": "3 x BMP-3", "pts": 7},
+      	{"id": 42, "name": "4 x BMP-3", "pts": 9},      	
+
       	{"id": 43, "name": "2 x BMP-2", "pts": 3},
       	{"id": 44, "name": "3 x BMP-2", "pts": 5},
       	{"id": 45, "name": "4 x BMP-2", "pts": 6},
@@ -174,7 +178,7 @@
    	    {"max": 1, "min": 1, "from": [32,33], "appliesTo": [516,562]},
    	    {"max": 1, "min": 1, "from": [36,37], "appliesTo": [514]},
    	    {"max": 1, "min": 1, "from": [38,39], "appliesTo": [512]},
-   	    {"max": 1, "min": 1, "from": [40,41,42], "appliesTo": [509,556]},
+   	    {"max": 1, "min": 1, "from": [40,41,42], "appliesTo": [556]},
    	    {"max": 1, "min": 1, "from": [43,44,45], "appliesTo": [510,557]},
    	    {"max": 1, "min": 1, "from": [46,47,48], "appliesTo": [511,558]},
    	    {"max": 1, "min": 1, "from": [49,50], "appliesTo": [513,550]},
