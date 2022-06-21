@@ -8,12 +8,12 @@
 			{"id": 501, "name": "HQ Unit","pts": 10, "units": "1 x M16 Rifle Team, 1 x HMMWV"},
 			{"id": 502, "name": "Light Motor Infantry Platoon","pts": 0, "upgrades": [10,11]},
 			{"id": 503, "name": "Light Motor Infantry Platoon","pts": 0, "upgrades": [10,11]},
-			{"id": 504, "name": "Light Motor Infantry Platoon","pts": 0, "upgrades": [10,11]},
+			{"id": 504, "name": "Light Motor Infantry Platoon","pts": 0, "upgrades": [10,11]}
 		]},
 		{"name": "Additional", "formations": [
 			{"id": 505, "name": "RDF/LT Assault Gun Platoon","pts": 0, "upgrades": [5,6,7]},
 			{"id": 506, "name": "HMMWV Fire Support Platoon","pts": 0, "upgrades": [20,21,22,23]},
-			{"id": 507, "name": "9th Motor HMMWV Scout Section","pts": 0, "upgrades": [12,13,14]},
+			{"id": 507, "name": "9th Motor HMMWV Scout Section","pts": 0, "upgrades": [12,13,14]}
 
 		]},
 	    {"name":"Support","formations":[

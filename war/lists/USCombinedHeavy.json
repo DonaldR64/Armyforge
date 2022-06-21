@@ -8,11 +8,11 @@
 			{"id": 501, "name": "HQ Unit","pts": 0, "upgrades": [1,2]},
 			{"id": 502, "name": "1st RDF/LT Assault Gun Platoon","pts": 0, "upgrades": [5,6,7]},
 			{"id": 503, "name": "2nd RDF/LT Assault Gun Platoon","pts": 0, "upgrades": [5,6,7]},
-			{"id": 504, "name": "3rd RDF/LT Assault Gun Platoon","pts": 0, "upgrades": [5,6,7]},
+			{"id": 504, "name": "3rd RDF/LT Assault Gun Platoon","pts": 0, "upgrades": [5,6,7]}
 		]},
 		{"name": "Additional", "formations": [
 			{"id": 510, "name": "Light Motor Infantry Platoon","pts": 0, "upgrades": [10,11]},
-			{"id": 511, "name": "9th Motor HMMWV Scout Section","pts": 0, "upgrades": [12,13,14]},
+			{"id": 511, "name": "9th Motor HMMWV Scout Section","pts": 0, "upgrades": [12,13,14]}
 
 		]},
 	    {"name":"Support","formations":[
