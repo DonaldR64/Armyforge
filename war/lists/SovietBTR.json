@@ -15,7 +15,7 @@
 			{"id": 506, "name": "T-64 Tank Company","pts": 0,"upgrades": [220,221,222,223,224,225,226,227,228,229]},
 			{"id": 507, "name": "T-72 Tank Company","pts": 0,"upgrades": [230,231,232,233,234,235,236,237,238]},
 			{"id": 508, "name": "T-64M Tank Company","pts": 0,"upgrades": [240,241,242,243,244,245,246,247,248]},
-			{"id": 509, "name": "T-55AM Tank Company", "pts": 0,"upgrades": [250,251,252,253,254,255,256]}			
+			{"id": 509, "name": "T-55AM Tank Company", "pts": 0,"upgrades": [250,251,252,253,254,255,256]},			
 			{"id": 510, "name": "BMP-2 Recon Platoon","pts": 0,"upgrades": [43,44,45]},
 			{"id": 511, "name": "BMP-1 Recon Platoon","pts": 0,"upgrades": [46,47,48]},
 			{"id": 512, "name": "BRDM-2 Recon Platoon","pts": 0,"upgrades": [38,39]},
@@ -195,6 +195,7 @@
     	{"max": 1, "min": 0, "from": [513]},
     	{"max": 1, "min": 0, "from": [514]},
     	{"max": 1, "min": 0, "from": [516,517]},
+    	{"max": 1, "min": 0, "from": [518]},
     	{"max": 1, "min": 0, "from": [550]},
     	{"max": 1, "min": 0, "from": [551]},
     	{"max": 1, "min": 0, "from": [552]},
@@ -205,8 +206,7 @@
     	{"max": 1, "min": 0, "from": [561,562,563]},
     	{"max": 1, "min": 0, "from": [564]},
     	{"max": 1, "min": 0, "from": [565]},
-    	{"max": 1, "min": 0, "from": [566]},
-    	{"max": 1, "min": 0, "from": [518]}
+    	{"max": 1, "min": 0, "from": [566]}
     ],    	
 
    "upgradeConstraints": [      
@@ -240,7 +240,7 @@
    	    {"max": 1, "min": 1, "from": [250,251,252,253,254,255], "appliesTo": [509]},
    	    {"max": 1, "min": 0, "from": [256], "appliesTo": [509]},
 
-   	    {"max": 1, "min": 1, "from": [89,90], "appliesTo": [560,518]},
+   	    {"max": 1, "min": 1, "from": [89,90], "appliesTo": [518,560]},
    	    {"max": 1, "min": 1, "from": [91,92,93,94], "appliesTo": [559]},
    	    {"max": 1, "min": 1, "from": [95,96], "appliesTo": [553]},
    	    {"max": 1, "min": 1, "from": [97,98], "appliesTo": [554]},
