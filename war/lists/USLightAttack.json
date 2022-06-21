@@ -2,7 +2,7 @@
 	"id": "Light Attack Company",
 	"version": "Team Yankee V2",
 	"by": "DR",
-	"notes": ["You must field an artillery unit to take a M113 Fist."],
+	"notes": ["You must field an artillery unit to take a M113 FIST."],
 	"sections": [
 		{"name": "Mandatory", "formations": [
 			{"id": 501, "name": "HQ Unit", "pts": 0, "upgrades": [1,2]},
@@ -24,7 +24,7 @@
 	 		{"id":603,"name":"HMMWV SAM Platoon","pts": 0, "upgrades":[320,321]},	     
 	 		{"id":604,"name":"Chaparral SAM Platoon","pts": 0, "upgrades":[325,326]},	  
 	 		{"id":605,"name":"M270 MLRS Rocket Launcher Battery","pts": 0, "upgrades":[330,331,332]},	     
-   	 		{"id":606,"name":"M113","pts": 1},	     
+   	 		{"id":606,"name":"M113 FIST", "units": "1 x M113 FIST", "pts": 1},	     
    	 		{"id":607,"name":"AH-64 Apache Attack Helicopter Platoon","pts": 0, "upgrades":[340,341]},	 
    	 		{"id":608,"name":"AH-1 Cobra Attack Helicopter Platoon","pts": 0, "upgrades":[345,346,347,348]},	     
     	 	{"id":609,"name":"A-10 Warthog Fighter Flight","pts": 0, "upgrades":[350,351]}	     
