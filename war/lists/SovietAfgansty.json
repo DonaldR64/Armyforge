@@ -6,12 +6,14 @@
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","units": "AK-74 Team", "pts": 1},
-			{"id": 502, "name": "Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-			{"id": 503, "name": "Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-			{"id": 504, "name": "Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-	       	{"id": 505,"name":"MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
-	       	{"id": 506,"name":"MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
-	       	{"id": 507,"name":"MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]}	 
+			{"id": 502, "name": "1st Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
+			{"id": 503, "name": "2nd Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
+	       	{"id": 505,"name":"1st MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
+	       	{"id": 506,"name":"2nd MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
+		]},
+		{"name": "Core", "formations": [
+			{"id": 504, "name": "3rd Air Assault Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
+	       	{"id": 507, "name": "3rd MI-24 Assault Helicopter Company","pts":0,"upgrades":[111,112,113,114,115,116]},	 
 		]},
 
 	    {"name":"Support","formations":[
@@ -105,8 +107,13 @@
 
    	"formationConstraints": [
     	{"max": 1, "min": 1, "from": [501]},
-    	{"max": 3, "min": 2, "from": [502,503,504]},
-    	{"max": 3, "min": 2, "from": [505,506,507]},
+    	{"max": 1, "min": 1, "from": [502]},
+    	{"max": 1, "min": 1, "from": [503]},
+    	{"max": 1, "min": 1, "from": [505]},
+    	{"max": 1, "min": 1, "from": [506]},
+    	{"max": 1, "min": 0, "from": [504]},
+    	{"max": 1, "min": 0, "from": [507]},
+
     	{"max": 1, "min": 0, "from": [550]},
     	{"max": 1, "min": 0, "from": [551]},
     	{"max": 1, "min": 0, "from": [552]},
