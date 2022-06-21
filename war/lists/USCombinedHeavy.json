@@ -82,7 +82,10 @@
 
    	"formationConstraints": [
     		{"max": 1, "min": 1, "from": [501]},
-    		{"max": 3, "min": 2, "from": [502,503,504]},
+    		{"max": 1, "min": 1, "from": [502]},
+    		{"max": 1, "min": 1, "from": [503]},
+    		{"max": 1, "min": 0, "from": [504]},
+
     		{"max": 1, "min": 0, "from": [510]},
     		{"max": 1, "min": 0, "from": [511]},
 
