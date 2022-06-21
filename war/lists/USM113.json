@@ -5,7 +5,7 @@
 	"notes": ["You must field an artillery unit to take a M113 FIST."],
 	"sections": [
 		{"name": "Mandatory", "formations": [
-			{"id": 501, "name": "HQ Unit","units": "1 x M16 Rifle Team, 1 x M113", "pts": 0, "upgrades": []},
+			{"id": 501, "name": "HQ Unit","units": "1 x M16 Rifle Team, 1 x M113", "pts": 1, "upgrades": []},
 			{"id": 502, "name": "1st M113 Mech Platoon","pts": 0, "upgrades": [20,21,22]},
 			{"id": 503, "name": "2nd M113 Mech Platoon","pts": 0, "upgrades": [20,21,22]}
 		]},
