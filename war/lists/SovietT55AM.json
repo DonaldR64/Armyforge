@@ -45,12 +45,12 @@
 	"upgrades": [
 		{"id": 1, "name": "Add AT-10 Stabber Missile", "pts": 1},
 
-      	{"id": 12, "name": "5 x T-62M", "pts": 7},
-      	{"id": 13, "name": "6 x T-62M", "pts": 9},      	
-      	{"id": 14, "name": "7 x T-62M", "pts": 11},
-      	{"id": 15, "name": "8 x T-62M", "pts": 13},      	
-      	{"id": 16, "name": "9 x T-62M", "pts": 15},
-      	{"id": 17, "name": "10 x T-62M", "pts": 16},
+      	{"id": 12, "name": "5 x T-55AM", "pts": 7},
+      	{"id": 13, "name": "6 x T-55AM", "pts": 9},      	
+      	{"id": 14, "name": "7 x T-55AM", "pts": 11},
+      	{"id": 15, "name": "8 x T-55AM", "pts": 13},      	
+      	{"id": 16, "name": "9 x T-55AM", "pts": 15},
+      	{"id": 17, "name": "10 x T-55AM", "pts": 16},
       	{"id": 18, "name": "Add AT-10 Stabber Missiles to all T-55AM Tanks", "pts": 2},
 
       	{"id": 30, "name": "2 x SA-13 Gopher SAM", "pts": 2},
