@@ -15,6 +15,7 @@
 			{"id": 506, "name": "T-64 Tank Company","pts": 0,"upgrades": [220,221,222,223,224,225,226,227,228,229]},
 			{"id": 507, "name": "T-72 Tank Company","pts": 0,"upgrades": [230,231,232,233,234,235,236,237,238]},
 			{"id": 508, "name": "T-64M Tank Company","pts": 0,"upgrades": [240,241,242,243,244,245,246,247,248]},
+			{"id": 509, "name": "T-55AM Tank Company", "pts": 0,"upgrades": [250,251,252,253,254,255,256]}			
 			{"id": 510, "name": "BMP-2 Recon Platoon","pts": 0,"upgrades": [43,44,45]},
 			{"id": 511, "name": "BMP-1 Recon Platoon","pts": 0,"upgrades": [46,47,48]},
 			{"id": 512, "name": "BRDM-2 Recon Platoon","pts": 0,"upgrades": [38,39]},
@@ -22,10 +23,7 @@
 			{"id": 514, "name": "ZSU-23-4 Shilka AA Platoon", "pts": 0,"upgrades": [36,37]},
 			{"id": 516, "name": "SA-9 Gaskin SAM Platoon", "pts": 0,"upgrades": [32,33]},
 			{"id": 517, "name": "SA-13 Gopher SAM Platoon", "pts": 0,"upgrades": [30,31]},
-			{"id": 518, "name": "Spandrel Anti-Tank Platoon", "pts": 0,"upgrades": [89,90]},
-			{"id": 519, "name": "T-55AM Tank Company", "pts": 0,"upgrades": [250,251,252,253,254,255,256]}
-
-
+			{"id": 518, "name": "Spandrel Anti-Tank Platoon", "pts": 0,"upgrades": [89,90]}
 		]},
 	    {"name":"Support","formations":[
 	       {"id":550,"name":"2S1 Carnation SP Howitzer Battery","pts": 0, "upgrades":[49,50]},	     
@@ -192,7 +190,7 @@
    	"formationConstraints": [
     	{"max": 1, "min": 1, "from": [501]},
     	{"max": 3, "min": 2, "from": [502,503,504]},
-    	{"max": 1, "min": 0, "from": [505,506,507,508,519]},
+    	{"max": 1, "min": 0, "from": [505,506,507,508,509]},
     	{"max": 1, "min": 0, "from": [510,511,512]},
     	{"max": 1, "min": 0, "from": [513]},
     	{"max": 1, "min": 0, "from": [514]},
@@ -210,9 +208,6 @@
     	{"max": 1, "min": 0, "from": [566]},
     	{"max": 1, "min": 0, "from": [518]}
     ],    	
-
-
-
 
    "upgradeConstraints": [      
       	{"max": 1, "min": 1, "from": [4,5,6,7,8,9], "appliesTo": [502,503,504]},
@@ -242,8 +237,8 @@
    	    {"max": 1, "min": 1, "from": [240,241,242,243,244,245,246,247], "appliesTo": [508]},
    	    {"max": 1, "min": 0, "from": [248], "appliesTo": [508]},
 
-   	    {"max": 1, "min": 1, "from": [250,251,252,253,254,255], "appliesTo": [519]},
-   	    {"max": 1, "min": 0, "from": [256], "appliesTo": [519]},
+   	    {"max": 1, "min": 1, "from": [250,251,252,253,254,255], "appliesTo": [509]},
+   	    {"max": 1, "min": 0, "from": [256], "appliesTo": [509]},
 
    	    {"max": 1, "min": 1, "from": [89,90], "appliesTo": [560,518]},
    	    {"max": 1, "min": 1, "from": [91,92,93,94], "appliesTo": [559]},
