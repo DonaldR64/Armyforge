@@ -6,11 +6,11 @@
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 10, "units": "1 x T-80", "upgrades": [1]},
-			{"id": 502, "name": "1st Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]},
-			{"id": 503, "name": "2nd Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]},
-			{"id": 504, "name": "3rd Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]}
+			{"id": 502, "name": "1st T-80 Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]},
+			{"id": 503, "name": "2nd T-80 Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]}
 		]},
 		{"name": "Additional", "formations": [
+			{"id": 504, "name": "3rd T-80 Shock Platoon","pts": 0,"upgrades": [10,11,12,13,14]},			
 			{"id": 505, "name": "BMP Shock Motor Rifle Company","pts": 0,"upgrades": [51,52,53,54,55,56]},
 			{"id": 509, "name": "BMP-3 Shock Recon Platoon","pts": 0,"upgrades": [130,131]},
 			{"id": 513, "name": "2S1 Carnation SP Howitzer Battery", "pts": 0,"upgrades": [49,50]},

@@ -6,11 +6,11 @@
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 6, "units": "1 x T-64", "upgrades": [1]},
-			{"id": 502, "name": "1st Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]},
-			{"id": 503, "name": "2nd Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]},
-			{"id": 504, "name": "3rd Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]}
+			{"id": 502, "name": "1st T-64 Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]},
+			{"id": 503, "name": "2nd T-64 Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]}
 		]},
 		{"name": "Additional", "formations": [
+			{"id": 504, "name": "3rd T-64 Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18,19]},			
 			{"id": 505, "name": "BMP-3 Motor Rifle Company","pts": 0,"upgrades": [51,52,53,54,55,56,57,58]},
 			{"id": 506, "name": "BMP-2 Motor Rifle Company","pts": 0,"upgrades": [60,61,62,63,64,65,66,67]},
 			{"id": 507, "name": "BMP-1 Motor Rifle Company","pts": 0,"upgrades": [70,71,72,73,74,75,76,77]},

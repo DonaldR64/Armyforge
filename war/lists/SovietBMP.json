@@ -4,7 +4,7 @@
 	"by": "DR",
 	"notes": ["If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.", "You must field either: a 2S1 Carnation SP Howitzer Battery, a 2S3 Acacia Heavy SP Howitzer Battery, a BM-21 Hail Rocket Launcher Battery (TS109), or a BM-27 Hurricane Rocket Launcher Battery before you may field a BMP-1 OP."],
 	"sections": [
-		{"name": "Core (HQ & 2-3 Rifle Companies)", "formations": [
+		{"name": "Mandatory (HQ & 2-3 Rifle Companies)", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 0, "upgrades": [1,2,3]},
 			{"id": 502, "name": "BMP-3 Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11]},
 			{"id": 503, "name": "BMP-2 Motor Rifle Company","pts": 0,"upgrades": [12,13,14,15,16,17,18,19]},

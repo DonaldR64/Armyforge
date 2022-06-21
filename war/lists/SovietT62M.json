@@ -4,13 +4,13 @@
 	"by": "DR",
 	"notes": ["If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.", "You must field either: a 2S1 Carnation SP Howitzer Battery, a 2S3 Acacia Heavy SP Howitzer Battery, a BM-21 Hail Rocket Launcher Battery (TS109), or a BM-27 Hurricane Rocket Launcher Battery before you may field a BMP-1 OP."],
 	"sections": [
-		{"name": "Core", "formations": [
+		{"name": "Mandatory", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 4, "units": "1 x T-62M", "upgrades": [1]},
-			{"id": 502, "name": "1st Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]},
-			{"id": 503, "name": "2nd Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]},
-			{"id": 504, "name": "3rd Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]}
+			{"id": 502, "name": "1st T-62M Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]},
+			{"id": 503, "name": "2nd T-62M Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]}
 		]},
 		{"name": "Additional", "formations": [
+			{"id": 504, "name": "3rd T-62M Tank Company","pts": 0,"upgrades": [10,11,12,13,14,15,16,17,18]},		
 			{"id": 506, "name": "BMP-2 Motor Rifle Company","pts": 0,"upgrades": [60,61,62,63,64,65,66,67]},
 			{"id": 507, "name": "BMP-1 Motor Rifle Company","pts": 0,"upgrades": [70,71,72,73,74,75,76,77]},
 			{"id": 508, "name": "BTR-60 Motor Rifle Company","pts": 0,"upgrades": [80,81,82,83,84,85,86,87,88]},

@@ -4,13 +4,13 @@
 	"by": "DR",
 	"notes": ["If a Force contains an Mi-24 Hind Assault Helicopter Company, it may also take an Mi-24 Hind Assault Landing Company. The Assault Landing Company must not exceed the combined Passenger Capacity of the Mi-24 Hind Assault Helicopter Company.", "You must field either: a 2S1 Carnation SP Howitzer Battery, a 2S3 Acacia Heavy SP Howitzer Battery, a BM-21 Hail Rocket Launcher Battery (TS109), or a BM-27 Hurricane Rocket Launcher Battery before you may field a BMP-1 OP."],
 	"sections": [
-		{"name": "Core", "formations": [
+		{"name": "Mandatory", "formations": [
 			{"id": 501, "name": "HQ Unit","units": "AK-74 Team, BTR-60", "pts": 1},
-			{"id": 502, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-			{"id": 503, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-			{"id": 504, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]}
+			{"id": 502, "name": "1st BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
+			{"id": 503, "name": "2nd BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]}
 		]},
 		{"name": "Additional", "formations": [
+			{"id": 504, "name": "3rd BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
 			{"id": 505, "name": "T-80 Tank Company","pts": 0,"upgrades": [200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216]},
 			{"id": 506, "name": "T-64 Tank Company","pts": 0,"upgrades": [220,221,222,223,224,225,226,227,228,229]},
 			{"id": 507, "name": "T-72 Tank Company","pts": 0,"upgrades": [230,231,232,233,234,235,236,237,238]},
@@ -189,7 +189,9 @@
 
    	"formationConstraints": [
     	{"max": 1, "min": 1, "from": [501]},
-    	{"max": 3, "min": 2, "from": [502,503,504]},
+    	{"max": 1, "min": 1, "from": [502]},
+    	{"max": 1, "min": 1, "from": [503]},
+    	{"max": 1, "min": 0, "from": [504]},
     	{"max": 1, "min": 0, "from": [505,506,507,508,509]},
     	{"max": 1, "min": 0, "from": [510,511,512]},
     	{"max": 1, "min": 0, "from": [513]},
