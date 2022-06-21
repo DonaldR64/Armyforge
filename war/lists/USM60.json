@@ -6,11 +6,11 @@
 	"sections": [
 		{"name": "Mandatory", "formations": [
 			{"id": 501, "name": "HQ Unit","pts": 0, "upgrades": [1,2]},
-			{"id": 502, "name": "1st M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12,13,14,15]},
-			{"id": 503, "name": "2nd M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12,13,14,15]}
+			{"id": 502, "name": "1st M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12]},
+			{"id": 503, "name": "2nd M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12]}
 		]},
 		{"name": "Additional", "formations": [
-			{"id": 504, "name": "3rd M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12,13,14,15]},
+			{"id": 504, "name": "3rd M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12]},
 			{"id": 506, "name": "M113 Scout Section","pts": 0, "upgrades": [70,71]},
 			{"id": 507, "name": "M901 ITV Anti-Tank Platoon","pts": 0, "upgrades": [40,41]},
 			{"id": 508, "name": "M106 Heavy Mortar Platoon","pts": 0, "upgrades": [50,51]},
@@ -35,12 +35,9 @@
       	{"id": 1, "name": "1 x M60 Patton", "pts": 4},
       	{"id": 2, "name": "2 x M60 Patton", "pts": 8},
 
-      	{"id": 10, "name": "2 x M1 Abrams", "pts": 16},
-      	{"id": 11, "name": "3 x M1 Abrams", "pts": 24},
-      	{"id": 12, "name": "4 x M1 Abrams", "pts": 32},
-      	{"id": 13, "name": "2 x IPM1 Abrams", "pts": 18},
-      	{"id": 14, "name": "3 x IPM1 Abrams", "pts": 27},
-      	{"id": 15, "name": "4 x IPM1 Abrams", "pts": 36},
+      	{"id": 10, "name": "2 x M60 Patton", "pts": 8},
+      	{"id": 11, "name": "3 x M60 Patton", "pts": 12},
+      	{"id": 12, "name": "4 x M60 Patton", "pts": 16},
 
       	{"id": 30, "name": "3 x M249 SAW Teams, 2 x M47 Dragon Teams, 3 x M113", "pts": 4},
       	{"id": 31, "name": "4 x M249 SAW Teams, 3 x M47 Dragon Teams, 4 x M113", "pts": 6},
@@ -120,7 +117,7 @@
 
    "upgradeConstraints": [      
    			{"max": 1, "min": 1, "from": [1,2], "appliesTo": [501]},
-   			{"max": 1, "min": 1, "from": [10,11,12,13,14,15], "appliesTo": [502,503,504]},
+   			{"max": 1, "min": 1, "from": [10,11,12], "appliesTo": [502,503,504]},
    			{"max": 1, "min": 1, "from": [70,71], "appliesTo": [506]},
    			{"max": 1, "min": 1, "from": [40,41], "appliesTo": [507]},
    			{"max": 1, "min": 1, "from": [50,51], "appliesTo": [508]},
