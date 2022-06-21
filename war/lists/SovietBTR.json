@@ -6,9 +6,9 @@
 	"sections": [
 		{"name": "Core", "formations": [
 			{"id": 501, "name": "HQ Unit","units": "AK-74 Team, BTR-60", "pts": 1},
-			{"id": 502, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]}
+			{"id": 502, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
 			{"id": 503, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
-			{"id": 504, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]},
+			{"id": 504, "name": "BTR Motor Rifle Company","pts": 0,"upgrades": [4,5,6,7,8,9,10,11,12]}
 		]},
 		{"name": "Additional", "formations": [
 			{"id": 505, "name": "T-80 Tank Company","pts": 0,"upgrades": [200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216]},
@@ -22,7 +22,7 @@
 			{"id": 514, "name": "ZSU-23-4 Shilka AA Platoon", "pts": 0,"upgrades": [36,37]},
 			{"id": 516, "name": "SA-9 Gaskin SAM Platoon", "pts": 0,"upgrades": [32,33]},
 			{"id": 517, "name": "SA-13 Gopher SAM Platoon", "pts": 0,"upgrades": [30,31]},
-			{"id": 518, "name": "Spandrel Anti-Tank Platoon", "pts": 0,"upgrades": [89,90]}
+			{"id": 518, "name": "Spandrel Anti-Tank Platoon", "pts": 0,"upgrades": [89,90]},
 			{"id": 519, "name": "T-55AM Tank Company", "pts": 0,"upgrades": [250,251,252,253,254,255,256]}
 
 
@@ -176,7 +176,7 @@
       	{"id": 245, "name": "8 x T-62M", "pts": 21},      	
       	{"id": 246, "name": "9 x T-62M", "pts": 25},
       	{"id": 247, "name": "10 x T-62M", "pts": 29},
-      	{"id": 248, "name": "Add AT-10 Stabber Missiles to all T-62M Tanks", "pts": 2}
+      	{"id": 248, "name": "Add AT-10 Stabber Missiles to all T-62M Tanks", "pts": 2},
 
       	{"id": 250, "name": "5 x T-55AM", "pts": 7},
       	{"id": 251, "name": "6 x T-55AM", "pts": 9},      	
@@ -184,7 +184,7 @@
       	{"id": 253, "name": "8 x T-55AM", "pts": 13},      	
       	{"id": 254, "name": "9 x T-55AM", "pts": 15},
       	{"id": 255, "name": "10 x T-55AM", "pts": 16},
-      	{"id": 256, "name": "Add AT-10 Stabber Missiles to all T-55AM Tanks", "pts": 2},
+      	{"id": 256, "name": "Add AT-10 Stabber Missiles to all T-55AM Tanks", "pts": 2}
 
     ],
 
