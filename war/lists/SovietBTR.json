@@ -215,8 +215,6 @@
 
 
    "upgradeConstraints": [      
-   	    {"max": 1, "min": 0, "from": [1], "appliesTo": [501]},
-
       	{"max": 1, "min": 1, "from": [4,5,6,7,8,9], "appliesTo": [502,503,504]},
    	    {"max": 1, "min": 0, "from": [10], "appliesTo": [502,503,504]},
    	    {"max": 1, "min": 0, "from": [11], "appliesTo": [502,503,504]},
