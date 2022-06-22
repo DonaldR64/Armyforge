@@ -28,7 +28,7 @@
    	 		{"id":606,"name":"M113 FIST", "units": "1 x M113 FIST", "pts": 1},	     
    	 		{"id":607,"name":"AH-64 Apache Attack Helicopter Platoon","pts": 0, "upgrades":[340,341]},	 
    	 		{"id":608,"name":"AH-1 Cobra Attack Helicopter Platoon","pts": 0, "upgrades":[345,346,347,348]},	     
-    	 	{"id":609,"name":"A-10 Warthog Fighter Flight","pts": 0, "upgrades":[350,351]}	     
+    	 	{"id":609,"name":"A-10 Warthog Fighter Flight","pts": 0, "upgrades":[350,351]},	     
     	 	{"id":610,"name":"AV-8 Harrier Attack Flight","pts": 0, "upgrades":[360,361]}	     
 	    ]}
 	],
@@ -159,7 +159,8 @@
    			{"max": 1, "min": 1, "from": [340,341], "appliesTo": [607]},
    			{"max": 1, "min": 1, "from": [345,346,347,348], "appliesTo": [608]},
 
-   			{"max": 1, "min": 1, "from": [350,351], "appliesTo": [609]}
+   			{"max": 1, "min": 1, "from": [350,351], "appliesTo": [609]},
+   			{"max": 1, "min": 1, "from": [360,361], "appliesTo": [610]}
 
 
 
