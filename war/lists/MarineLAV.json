@@ -97,8 +97,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607,608]},
-    		{"max": 1, "min": 0, "from": [609]},
-    		{"max": 1, "min": 0, "from": [610]}
+    		{"max": 1, "min": 0, "from": [609,610]}
 
     ],
 

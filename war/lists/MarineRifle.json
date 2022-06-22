@@ -13,8 +13,8 @@
 			{"id": 504, "name": "3rd Rifle Platoon","pts": 0, "upgrades": [50,51,52,53,54,55,56]},
 			{"id": 505, "name": "M60 Patton Tank Platoon","pts": 0, "upgrades": [10,11,12,13]},
 			{"id": 506, "name": "HMMWV-TOW Anti-Tank Squad","pts": 0, "upgrades": [30,31]},
-			{"id": 507, "name": "HMMWV Machine Gun Platoon","pts": 0, "upgrades": [40,41]},
-			{"id": 508, "name": "LAV Platoon","pts": 0, "upgrades": [60,61,62]}
+			{"id": 507, "name": "HMMWV Machine Gun Platoon","pts": 0, "upgrades": [60,61,62]},
+			{"id": 508, "name": "LAV Platoon","pts": 0, "upgrades": [70,71]}
 
 		]},
 	    {"name":"Support","formations":[
@@ -27,7 +27,8 @@
    	 		{"id":606,"name":"Marine HMMWV Observation Post", "units": "1 x HMMWV OP", "pts": 1},	     
    	 		{"id":607,"name":"AH-64 Apache Attack Helicopter Platoon","pts": 0, "upgrades":[340,341]},	 
    	 		{"id":608,"name":"AH-1 Cobra Attack Helicopter Platoon","pts": 0, "upgrades":[345,346,347,348]},	     
-    	 	{"id":609,"name":"AV-8 Harrier Attack Flight","pts": 0, "upgrades":[350,351]}	     
+    	 	{"id":609,"name":"AV-8 Harrier Attack Flight","pts": 0, "upgrades":[350,351]},
+    	 	{"id":610,"name":"A-10 Warthog Attack Flight","pts": 0, "upgrades":[360,361]}	     
 	    ]}
 	],
 
@@ -39,10 +40,7 @@
       	{"id": 13, "name": "5 x M60 Patton", "pts": 20},
 
       	{"id": 30, "name": "2 x HMMWV-TOW", "pts": 2},
-      	{"id": 31, "name": "2 x HMMWV-TOW-2", "pts": 3},
-
-      	{"id": 40, "name": "2 x HMMWV-TOW", "pts": 2},
-      	{"id": 41, "name": "2 x HMMWV-TOW-2", "pts": 3},      	
+      	{"id": 31, "name": "2 x HMMWV-TOW-2", "pts": 3},  	
 
       	{"id": 50, "name": "6 x M249 SAW Team, 2 x AAVP7", "pts": 6},
       	{"id": 51, "name": "9 x M249 SAW Team, 2 x AAVP7", "pts": 9},
@@ -55,6 +53,9 @@
       	{"id": 60, "name": "3 x HMMWV-M2", "pts": 2},
       	{"id": 61, "name": "6 x HMMWV-M2", "pts": 4},
       	{"id": 62, "name": "Replace any or all HMMWV-M2 with HMMWV-MK19", "pts": 0},
+
+      	{"id": 70, "name": "2 x LAV-25", "pts": 2},
+      	{"id": 71, "name": "4 x LAV-25", "pts": 4},
 
       	{"id": 300, "name": "3 x M109", "pts": 7},
       	{"id": 301, "name": "3 x M109 with Laser-Guided Projectiles", "pts": 10},
@@ -87,8 +88,11 @@
       	{"id": 347, "name": "4 x AH-1 Cobra (TOW)", "pts": 14},
       	{"id": 348, "name": "4 x AH-1 Cobra (TOW-2)", "pts": 18},
 
-      	{"id": 350, "name": "2 x A-10 Warthog", "pts": 10},
-      	{"id": 351, "name": "4 x A-10 Warthog", "pts": 20}
+      	{"id": 350, "name": "2 x AV-8 Harrier", "pts": 3},
+      	{"id": 351, "name": "4 x AV-8 Harrier", "pts": 6},
+
+      	{"id": 360, "name": "2 x A-10 Warthog", "pts": 10},
+      	{"id": 361, "name": "4 x A-10 Warthog", "pts": 20}
 	],
 
 
@@ -111,7 +115,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607,608]},
-    		{"max": 1, "min": 0, "from": [609]}
+    		{"max": 1, "min": 0, "from": [609,610]}
 
 
 
@@ -120,28 +124,21 @@
 
 
    "upgradeConstraints": [      
+   			{"max": 1, "min": 1, "from": [10,11,12,13], "appliesTo": [505]},
 
+   			{"max": 1, "min": 1, "from": [30,31], "appliesTo": [506]},
 
+   			{"max": 1, "min": 1, "from": [50,51], "appliesTo": [502,503,504]},
+   			{"max": 2, "min": 0, "from": [52], "appliesTo": [502,503,504]},
+   			{"max": 2, "min": 0, "from": [53], "appliesTo": [502,503,504]},
+   			{"max": 1, "min": 0, "from": [54], "appliesTo": [502,503,504]},
+   			{"max": 2, "min": 0, "from": [55], "appliesTo": [502,503,504]},
+   			{"max": 1, "min": 0, "from": [56], "appliesTo": [502,503,504]},
 
+   			{"max": 1, "min": 1, "from": [60,61], "appliesTo": [507]},
+   			{"max": 1, "min": 0, "from": [62], "appliesTo": [507]},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   			{"max": 1, "min": 1, "from": [70,71], "appliesTo": [508]},
 
    			{"max": 1, "min": 1, "from": [300,301,302,303], "appliesTo": [600]},
    			{"max": 1, "min": 0, "from": [304], "appliesTo": [600]},
@@ -158,8 +155,7 @@
    			{"max": 1, "min": 1, "from": [340,341], "appliesTo": [607]},
    			{"max": 1, "min": 1, "from": [345,346,347,348], "appliesTo": [608]},
 
-   			{"max": 1, "min": 1, "from": [350,351], "appliesTo": [609]}
-
+   			{"max": 1, "min": 1, "from": [350,351], "appliesTo": [609,610]}
 
 
    ]
