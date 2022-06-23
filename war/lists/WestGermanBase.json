@@ -1,0 +1,129 @@
+{
+	"id": "",
+	"version": "Team Yankee V2",
+	"by": "DR",
+	"notes": ["You must field an artillery unit to field a M113 OP"],
+	"sections": [
+		{"name": "Mandatory", "formations": [
+
+		]},
+		{"name": "Additional", "formations": [
+
+		]},
+	    {"name":"Support","formations":[
+	 		{"id":600,"name":"LARS Rakentenwerfer Batterie","pts": 0, "upgrades":[320,321,322]},	     
+	 		{"id":601,"name":"M109G Panzerartillerie Batterie","pts": 0, "upgrades":[300,301,302,303]},	     
+	 		{"id":602,"name":"MARS Rakentenwerfer Batterie","pts": 0, "upgrades":[330,331,332,334]},	     
+	 		{"id":603,"name":"Kanonenjagdpanzer Zug","pts": 0, "upgrades":[360,361]},	     
+	 		{"id":604,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
+	 		{"id":605,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
+   	 		{"id":606,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
+   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]}     
+	    ]}
+	],
+
+	"upgrades": [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      	{"id": 300, "name": "3 x M109G", "pts": 7},
+      	{"id": 301, "name": "4 x M109G", "pts": 9},
+      	{"id": 302, "name": "5 x M109G", "pts": 12},
+      	{"id": 303, "name": "6 x M109G", "pts": 14},
+
+      	{"id": 310, "name": "2 x PAH", "pts": 8},
+      	{"id": 311, "name": "4 x PAH", "pts": 8},
+
+      	{"id": 320, "name": "2 x LARS", "pts": 3},
+      	{"id": 321, "name": "4 x LARS", "pts": 6},
+      	{"id": 322, "name": "Arm all LARS with Minelets", "pts": 1},
+
+      	{"id": 330, "name": "2 x MARS", "pts": 6},
+      	{"id": 331, "name": "3 x MARS", "pts": 9},
+      	{"id": 333, "name": "4 x MARS", "pts": 12},
+      	{"id": 334, "name": "Arm all MARS with Minelets", "pts": 1},
+
+      	{"id": 340, "name": "2 x Roland 2", "pts": 3},
+      	{"id": 341, "name": "4 x Roland 2", "pts": 6},
+      	{"id": 342, "name": "6 x Roland 2", "pts": 9},
+
+      	{"id": 350, "name": "2 x Tornado", "pts": 4},
+      	{"id": 351, "name": "4 x Tornado", "pts": 8},
+
+      	{"id": 360, "name": "3 x Kanonenjagdpanzer", "pts": 4},
+      	{"id": 361, "name": "4 x Kanonenjagdpanzer", "pts": 6}
+
+	],
+
+
+   	"formationConstraints": [
+
+
+
+
+
+
+
+
+
+
+
+    		{"max": 1, "min": 0, "from": [600]},
+    		{"max": 1, "min": 0, "from": [601]},
+    		{"max": 1, "min": 0, "from": [602]},
+    		{"max": 1, "min": 0, "from": [603]},
+    		{"max": 1, "min": 0, "from": [604]},
+    		{"max": 1, "min": 0, "from": [605]},
+    		{"max": 1, "perArmy":true, "from": [606]},
+    		{"max": 2, "min": 0, "from": [607]}
+    ],
+
+
+
+   "upgradeConstraints": [      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   			{"max": 1, "min": 1, "from": [300,301,302,303], "appliesTo": [601]},
+   			{"max": 1, "min": 1, "from": [310,311], "appliesTo": [607]},
+     		{"max": 1, "min": 1, "from": [320,321], "appliesTo": [600]},
+     		{"max": 1, "min": 0, "from": [322], "appliesTo": [600]},
+     		{"max": 1, "min": 1, "from": [330,331,332], "appliesTo": [602]},
+     		{"max": 1, "min": 0, "from": [322], "appliesTo": [602]},
+     		{"max": 1, "min": 1, "from": [340,341,342], "appliesTo": [604]},
+     		{"max": 1, "min": 0, "from": [350,351], "appliesTo": [605]},
+     		{"max": 1, "min": 0, "from": [360,361], "appliesTo": [603]}
+
+   ]
+}
