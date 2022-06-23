@@ -120,10 +120,10 @@
      		{"max": 1, "min": 1, "from": [320,321], "appliesTo": [600]},
      		{"max": 1, "min": 0, "from": [322], "appliesTo": [600]},
      		{"max": 1, "min": 1, "from": [330,331,332], "appliesTo": [602]},
-     		{"max": 1, "min": 0, "from": [322], "appliesTo": [602]},
+     		{"max": 1, "min": 0, "from": [334], "appliesTo": [602]},
      		{"max": 1, "min": 1, "from": [340,341,342], "appliesTo": [604]},
-     		{"max": 1, "min": 0, "from": [350,351], "appliesTo": [605]},
-     		{"max": 1, "min": 0, "from": [360,361], "appliesTo": [603]}
+     		{"max": 1, "min": 1, "from": [350,351], "appliesTo": [605]},
+     		{"max": 1, "min": 1, "from": [360,361], "appliesTo": [603]}
 
    ]
 }
