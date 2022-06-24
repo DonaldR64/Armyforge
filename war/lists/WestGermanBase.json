@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "Test",
 	"version": "Team Yankee V2",
 	"by": "DR",
 	"notes": ["You must field an artillery unit to field a M113 OP","If you take a Gepard or Roland Flakpazer Batterie, you may take a Fliegerfaust Gruppe; the number must not exceed the number of Gepard or Roland tanks"],
@@ -93,7 +93,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607]},
-    		{"max": 1,"name": "Fliegerfaust", "from": [608], "forEach": [604],"name2": "AA"}
+    		{"max": 1,"name": "Fliegerfaust Gruppe", "from": [608], "forEach": [604],"name2": "AA"}
 
     ],
 
