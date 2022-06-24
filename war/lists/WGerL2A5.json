@@ -32,6 +32,7 @@
    	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
 			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}	     	 		     
 	    ]}
+
 	],
 
 	"upgrades": [
@@ -112,7 +113,7 @@
     		{"max": 1, "min": 0, "from": [508]},
     		{"max": 2, "min": 0, "from": [509]},
     		{"max": 1, "min": 0, "from": [510]},
-    		{"max": 1, "min": 0, "from": [511], "forEach": [510]},
+    		{"max": 1, "min": 0, "from": [511]},
     		{"max": 1, "min": 0, "from": [512]},
     		{"max": 1, "min": 0, "from": [513]},
 
@@ -124,7 +125,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607]},
-    		{"max": 1, "min": 0, "from": [608], "forEach": [604]}
+    		{"max": 1, "min": 0, "from": [608]}
     ],
 
 
