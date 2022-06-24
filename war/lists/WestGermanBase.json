@@ -22,9 +22,9 @@
 	    ]},
 	   	{"name":"Extra","formations":[
 			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}	     	 		     
-		]},
+		]}
 	],
-	
+
 	"upgrades": [
 
 
@@ -136,4 +136,4 @@
      		{"max": 1, "min": 1, "from": [370,371.372,373], "appliesTo": [608]}
 
    ]
-}]}
+}
