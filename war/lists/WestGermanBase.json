@@ -93,7 +93,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607]},
-    		{"max": 1, "min": 0, "from": [608], "forEach": [604],"name2": "Fliegerfaust"}
+    		{"max": 1,"name": "Fliegerfaust", "from": [608], "forEach": [604],"name2": "AA"}
 
     ],
 
