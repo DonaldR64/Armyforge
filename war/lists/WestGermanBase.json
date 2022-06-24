@@ -2,7 +2,7 @@
 	"id": "",
 	"version": "Team Yankee V2",
 	"by": "DR",
-	"notes": ["You must field an artillery unit to field a M113 OP"],
+	"notes": ["You must field an artillery unit to field a M113 OP","If you take a Gepard or Roland Flakpazer Batterie, you may take a Fliegerfaust Gruppe; the number must not exceed the number of Gepard or Roland tanks"],
 	"sections": [
 		{"name": "Mandatory", "formations": [
 
@@ -18,7 +18,8 @@
 	 		{"id":604,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
 	 		{"id":605,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
    	 		{"id":606,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
-   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]}     
+   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
+			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}	     	 		     
 	    ]}
 	],
 
@@ -62,7 +63,12 @@
       	{"id": 351, "name": "4 x Tornado", "pts": 8},
 
       	{"id": 360, "name": "3 x Kanonenjagdpanzer", "pts": 4},
-      	{"id": 361, "name": "4 x Kanonenjagdpanzer", "pts": 6}
+      	{"id": 361, "name": "4 x Kanonenjagdpanzer", "pts": 6},
+
+      	{"id": 370, "name": "2 x Redeye Teams", "pts": 2},
+      	{"id": 371, "name": "3 x Redeye Teams", "pts": 3},
+      	{"id": 372, "name": "4 x Redeye Teams", "pts": 4},
+      	{"id": 373, "name": "6 x Redeye Teams", "pts": 6}
 
 	],
 
@@ -86,7 +92,10 @@
     		{"max": 1, "min": 0, "from": [604]},
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
-    		{"max": 2, "min": 0, "from": [607]}
+    		{"max": 2, "min": 0, "from": [607]},
+    		{"max": 1, "min": 0, "from": [608]}
+    		{"max": 1, "min": 0, "from": [608], "forEach": [604]}
+
     ],
 
 
@@ -123,7 +132,8 @@
      		{"max": 1, "min": 0, "from": [333], "appliesTo": [602]},
      		{"max": 1, "min": 1, "from": [340,341,342], "appliesTo": [604]},
      		{"max": 1, "min": 1, "from": [350,351], "appliesTo": [605]},
-     		{"max": 1, "min": 1, "from": [360,361], "appliesTo": [603]}
+     		{"max": 1, "min": 1, "from": [360,361], "appliesTo": [603]},
+     		{"max": 1, "min": 1, "from": [370,371.372,373], "appliesTo": [608]}
 
    ]
 }
