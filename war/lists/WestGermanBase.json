@@ -18,10 +18,8 @@
 	 		{"id":604,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
 	 		{"id":605,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
    	 		{"id":606,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
-   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]}
-	    ]},
-	   	{"name":"Extra","formations":[
-			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}	     	 		     
+   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
+			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}
 		]}
 	],
 
@@ -95,7 +93,7 @@
     		{"max": 1, "min": 0, "from": [605]},
     		{"max": 1, "perArmy":true, "from": [606]},
     		{"max": 2, "min": 0, "from": [607]},
-    		{"max": 1, "from": [608], "name": "Extra" , "forEach": [604], "name2": "AA"}
+    		{"max": 1, "from": [608]}
     ],
 
 
