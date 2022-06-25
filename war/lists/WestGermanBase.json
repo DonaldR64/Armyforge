@@ -18,7 +18,9 @@
 	 		{"id":554,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
 	 		{"id":555,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
    	 		{"id":556,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
-   	 		{"id":557,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
+   	 		{"id":557,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]}
+		]},
+		{"name": "Additional Support","formations":[
 			{"id":558,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}
 		]}
 	],
