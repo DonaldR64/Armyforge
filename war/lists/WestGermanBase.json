@@ -11,15 +11,15 @@
 
 		]},
 	    {"name":"Support","formations":[
-	 		{"id":600,"name":"LARS Rakentenwerfer Batterie","pts": 0, "upgrades":[320,321,322]},	     
-	 		{"id":601,"name":"M109G Panzerartillerie Batterie","pts": 0, "upgrades":[300,301,302,303]},	     
-	 		{"id":602,"name":"MARS Rakentenwerfer Batterie","pts": 0, "upgrades":[330,331,332,333]},	     
-	 		{"id":603,"name":"Kanonenjagdpanzer Zug","pts": 0, "upgrades":[360,361]},	     
-	 		{"id":604,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
-	 		{"id":605,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
-   	 		{"id":606,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
-   	 		{"id":607,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
-			{"id":608,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}
+	 		{"id":550,"name":"LARS Rakentenwerfer Batterie","pts": 0, "upgrades":[320,321,322]},	     
+	 		{"id":551,"name":"M109G Panzerartillerie Batterie","pts": 0, "upgrades":[300,301,302,303]},	     
+	 		{"id":552,"name":"MARS Rakentenwerfer Batterie","pts": 0, "upgrades":[330,331,332,333]},	     
+	 		{"id":553,"name":"Kanonenjagdpanzer Zug","pts": 0, "upgrades":[360,361]},	     
+	 		{"id":554,"name":"Roland Flarakpanzer Batterie","pts": 0, "upgrades":[340,341,342]},	  
+	 		{"id":555,"name":"Tornado Strike Flight","pts": 0, "upgrades":[350,351]},	     
+   	 		{"id":556,"name":"M113 OP", "units": "1 x M113 OP", "pts": 1},	     
+   	 		{"id":557,"name":"PAH Anti-Tank Helicopter Flight","pts": 0, "upgrades":[310,311]},
+			{"id":558,"name":"Fliegerfaust Gruppe","pts": 0, "upgrades":[370,371,372,373]}
 		]}
 	],
 
@@ -85,15 +85,18 @@
 
 
 
-    		{"max": 1, "min": 0, "from": [600]},
-    		{"max": 1, "min": 0, "from": [601]},
-    		{"max": 1, "min": 0, "from": [602]},
-    		{"max": 1, "min": 0, "from": [603]},
-    		{"max": 1, "min": 0, "from": [604]},
-    		{"max": 1, "min": 0, "from": [605]},
-    		{"max": 1, "perArmy":true, "from": [606]},
-    		{"max": 2, "min": 0, "from": [607]},
-    		{"max": 1, "min": 0, "from": [608]},
+    		{"max": 1, "min": 0, "from": [550]},
+    		{"max": 1, "min": 0, "from": [551]},
+    		{"max": 1, "min": 0, "from": [552]},
+    		{"max": 1, "min": 0, "from": [553]},
+    		{"max": 1, "min": 0, "from": [554]},
+    		{"max": 1, "min": 0, "from": [555]},
+    		{"max": 1, "perArmy":true, "from": [556]},
+    		{"max": 2, "min": 0, "from": [557]},
+
+
+          	{"max": 1, "name": "Gruppe", "from": [558],  "forEach": [554], "name2": "Roland" }
+		
     ],
 
 
@@ -122,16 +125,16 @@
 
 
 
-   			{"max": 1, "min": 1, "from": [300,301,302,303], "appliesTo": [601]},
-   			{"max": 1, "min": 1, "from": [310,311], "appliesTo": [607]},
-     		{"max": 1, "min": 1, "from": [320,321], "appliesTo": [600]},
-     		{"max": 1, "min": 0, "from": [322], "appliesTo": [600]},
-     		{"max": 1, "min": 1, "from": [330,331,332], "appliesTo": [602]},
-     		{"max": 1, "min": 0, "from": [333], "appliesTo": [602]},
-     		{"max": 1, "min": 1, "from": [340,341,342], "appliesTo": [604]},
-     		{"max": 1, "min": 1, "from": [350,351], "appliesTo": [605]},
-     		{"max": 1, "min": 1, "from": [360,361], "appliesTo": [603]},
-     		{"max": 1, "min": 1, "from": [370,371.372,373], "appliesTo": [608]}
+   			{"max": 1, "min": 1, "from": [300,301,302,303], "appliesTo": [551]},
+   			{"max": 1, "min": 1, "from": [310,311], "appliesTo": [557]},
+     		{"max": 1, "min": 1, "from": [320,321], "appliesTo": [550]},
+     		{"max": 1, "min": 0, "from": [322], "appliesTo": [550]},
+     		{"max": 1, "min": 1, "from": [330,331,332], "appliesTo": [552]},
+     		{"max": 1, "min": 0, "from": [333], "appliesTo": [552]},
+     		{"max": 1, "min": 1, "from": [340,341,342], "appliesTo": [554]},
+     		{"max": 1, "min": 1, "from": [350,351], "appliesTo": [555]},
+     		{"max": 1, "min": 1, "from": [360,361], "appliesTo": [553]},
+     		{"max": 1, "min": 1, "from": [370,371.372,373], "appliesTo": [558]}
 
    ]
 }
