@@ -1,4 +1,44 @@
 
+ 
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@DonaldR64 
+DonaldR64
+/
+Armyforge
+Public template
+forked from adam77/snapfire
+Pin
+ Watch 0 
+Fork 22 Cannot fork because you own this repository and are not a member of any organizations.
+  Star 0
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+ master 
+Armyforge/war/js/Force.js  / Jump to 
+Go to file
+
+@andyjenkinson
+andyjenkinson No longer relies on formation IDs >=500
+…
+Latest commit 90285ef on Feb 17, 2021
+ History
+ 2 contributors
+@andyjenkinson @magnusdurr
+163 lines (160 sloc)  5.12 KB
+Raw Blame
+
+ 
+
 var Force = {
 	nextId:0,
 	name:'Incompertus',
@@ -31,7 +71,7 @@ var Force = {
 												total += u.pts;
 											}
 									});
-
+									total = Math.round(total);
 									return total;
 								},
 								canRemove:function(upgradeType) {
@@ -161,3 +201,18 @@ var Force = {
 		return txt;
 	}
 };
+Give feedback
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
