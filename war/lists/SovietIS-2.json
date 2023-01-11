@@ -12,7 +12,7 @@
 			{"id": 505, "name": "IS-2 Tank Company","pts": 0,"upgrades": [1,2,3]},
 			{"id": 506, "name": "IS-2 Tank Company","pts": 0,"upgrades": [1,2,3]},
 			{"id": 507, "name": "SMG Company","pts": 0,"upgrades": [10,11,12,13]},
-			{"id": 508, "name": "Hero SMG Company","pts": 0,"upgrades": [12,13,20,21]},
+			{"id": 508, "name": "Hero SMG Company","pts": 0,"upgrades": [20,21,12,13]},
 			{"id": 509, "name": "Engineer-Sapper Company","pts": 0,"upgrades": [30,31,32,40,41,42,43,44]}
 		]},
 
