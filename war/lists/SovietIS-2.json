@@ -17,7 +17,7 @@
 		]},
 
 	    {"name":"Support","formations":[
-	       {"id":550,"name":"KV-8 Flame Tank Company","pts": 0, "upgrades":[110,111,112]},	     
+	       {"id":550,"name":"KV-8 Flame Tank Company","pts": 0, "upgrades":[105]},	     
 	       {"id":551,"name":"OT-34 Flame Tank Company","pts": 0, "upgrades":[100,101]}	     
 
 
@@ -56,8 +56,11 @@
       	{"id": 44, "name": "Replace a PPSh Team with a 82mm Mortar Team", "pts": 0},
 
 
-      	{"id": 100, "name": "OT-34/76", "pts": 2.5},
-      	{"id": 101, "name": "OT-34/85", "pts": 4.5}
+      	{"id": 100, "name": "OT-34/76", "pts": 2},
+      	{"id": 101, "name": "OT-34/85", "pts": 4},
+
+      	{"id": 105, "name": "KV-8", "pts": 5}
+
 
 
 
@@ -103,7 +106,7 @@
    	    {"max": 2, "min": 0, "from": [44], "appliesTo": [509]},
    	    {"max": 2, "min": 0, "from": [44], "appliesTo": [509]},
 
-   	    {"max": 1, "min": 1, "from": [110,111,112], "appliesTo": [550]},
+   	    {"max": 5, "min": 3, "from": [105], "appliesTo": [550]},
    	    {"max": 10, "min": 5, "from": [100,101], "appliesTo": [551]}
 
 
