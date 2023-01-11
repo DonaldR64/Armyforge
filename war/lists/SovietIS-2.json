@@ -12,10 +12,20 @@
 			{"id": 505, "name": "IS-2 Tank Company","pts": 0,"upgrades": [1,2,3]},
 			{"id": 506, "name": "IS-2 Tank Company","pts": 0,"upgrades": [1,2,3]},
 			{"id": 507, "name": "SMG Company","pts": 0,"upgrades": [10,11,12,13]},
-			{"id": 508, "name": "Hero SMG Company","pts": 0,"upgrades": [20,21,12,13]},
+			{"id": 508, "name": "Hero SMG Company","pts": 0,"upgrades": [12,13,20,21]},
 			{"id": 509, "name": "Engineer-Sapper Company","pts": 0,"upgrades": [30,31,32,40,41,42,43,44]}
+		]},
 
-		]}
+	    {"name":"Support","formations":[
+	       {"id":550,"name":"KV-8 Flame Tank Company","pts": 0, "upgrades":[110,111,112]},	     
+	       {"id":551,"name":"OT-34 Flame Tank Company","pts": 0, "upgrades":[100,101,102,103,104,105,106]}	     
+
+
+
+
+
+	    ]}
+
 	],
 
 	"upgrades": [
@@ -39,11 +49,32 @@
       	{"id": 31, "name": "14 x PPSh SMG Teams, 1 x DP MG Team", "pts": 18},
       	{"id": 32, "name": "8 x PPSh SMG Teams", "pts": 9},
       	
-      	{"id": 40, "name": "Equip PPSh SMG Teams with Panzerfausts", "pts": 2},
+      	{"id": 40, "name": "Equip All PPSh SMG Teams with Panzerfausts", "pts": 2},
       	{"id": 41, "name": "Replace a PPSh Team with a PTRD AT Rifle Team", "pts": 0},
       	{"id": 42, "name": "Replace a PPSh Team with a Maxim HMG Team", "pts": 0},
       	{"id": 43, "name": "Replace a PPSh Team with a Flamethrower Team", "pts": 0},
-      	{"id": 44, "name": "Replace a PPSh Team with a 82mm Mortar Team", "pts": 0}
+      	{"id": 44, "name": "Replace a PPSh Team with a 82mm Mortar Team", "pts": 0},
+
+
+      	{"id": 100, "name": "5 x OT-34/76", "pts": 13},
+      	{"id": 101, "name": "6 x OT-34/76", "pts": 15},
+      	{"id": 102, "name": "7 x OT-34/76", "pts": 18},
+      	{"id": 103, "name": "8 x OT-34/76", "pts": 20},
+      	{"id": 104, "name": "9 x OT-34/76", "pts": 23},
+      	{"id": 105, "name": "10 x OT-34/76", "pts": 25},
+      	{"id": 106, "name": "Replace a OT-34/76 with a OT-34/85", "pts": 2},
+
+      	{"id": 110, "name": "3 x KV-8", "pts": 15},
+      	{"id": 111, "name": "4 x KV-8", "pts": 20},
+      	{"id": 112, "name": "5 x KV-8", "pts": 25}
+
+
+
+
+
+
+
+
 
 
 
@@ -59,27 +90,35 @@
     	{"max": 1, "min": 1, "from": [503,504]},
     	{"max": 1, "min": 0, "from": [505]},
     	{"max": 1, "min": 0, "from": [506]},
-    	{"max": 1, "min": 0, "from": [507,508,509]}
+    	{"max": 1, "min": 0, "from": [507,508,509]},
+
+    	{"max": 1, "min": 0, "from": [550,551]}
+
 
     ],
 
 
 
    "upgradeConstraints": [      
-   	    {"max": 1, "min": 1, "from": [1,2,3], "appliesTo": [502]},
-   	    {"max": 1, "min": 1, "from": [1,2,3,4,5,6], "appliesTo": [503]},
+   	    {"max": 1, "min": 1, "from": [1,2,3], "appliesTo": [502,503,505,506]},
+   	    {"max": 1, "min": 1, "from": [4,5,6], "appliesTo": [504]},
    	    {"max": 1, "min": 1, "from": [10,11], "appliesTo": [507]},
    	    {"max": 1, "min": 1, "from": [12], "appliesTo": [507]},
    	    {"max": 2, "min": 0, "from": [13], "appliesTo": [507]},
    	    {"max": 1, "min": 1, "from": [20,21], "appliesTo": [508]},
-   	    {"max": 1, "min": 1, "from": [22], "appliesTo": [508]},
+   	    {"max": 1, "min": 1, "from": [12], "appliesTo": [508]},
    	    {"max": 2, "min": 0, "from": [13], "appliesTo": [508]},
    	    {"max": 1, "min": 1, "from": [30,31,32], "appliesTo": [509]},   	    
    	    {"max": 1, "min": 0, "from": [40], "appliesTo": [509]},
    	    {"max": 2, "min": 0, "from": [41], "appliesTo": [509]},
    	    {"max": 2, "min": 0, "from": [42], "appliesTo": [509]},
    	    {"max": 2, "min": 0, "from": [43], "appliesTo": [509]},
-   	    {"max": 2, "min": 0, "from": [44], "appliesTo": [509]}
+   	    {"max": 2, "min": 0, "from": [44], "appliesTo": [509]},
+   	    {"max": 2, "min": 0, "from": [44], "appliesTo": [509]},
+
+   	    {"max": 1, "min": 1, "from": [110,111,112], "appliesTo": [550]},
+   	    {"max": 1, "min": 1, "from": [100,101,102,103,104,105], "appliesTo": [551]},
+   	    {"max": 10, "min": 0, "from": [106], "appliesTo": [551]}
 
 
 
